@@ -97,19 +97,19 @@ I am a **Computer Science Graduate (VIT)** and an elite **AI Engineer & Full-Sta
 ## 📊 Analytics & Performance
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dark-VenomX&theme=radical&hide_border=true&include_all_commits=true&count_private=false&title_color=0077B5&text_color=ffffff&icon_color=0077B5&bg_color=0d1117&v=1" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Dark-VenomX&theme=radical&hide_border=true&include_all_commits=true&count_private=false&title_color=0077B5&text_color=ffffff&icon_color=0077B5&bg_color=0d1117" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dark-VenomX&theme=radical&hide_border=true&title_color=0077B5&text_color=ffffff&icon_color=0077B5&background=0d1117" width="48%" />
 </div>
 <br>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dark-VenomX&theme=radical&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=0077B5&text_color=ffffff&bg_color=0d1117&v=1" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Dark-VenomX&theme=radical&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=0077B5&text_color=ffffff&bg_color=0d1117" />
 </div>
 
 <br>
 
 ## 🏆 GitHub Trophies
 <div align="center">
-  <img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=Dark-VenomX&theme=radical&no-frame=false&no-bg=true&margin-w=4&v=1" />
+  <img src="https://github-profile-trophy-tawny.vercel.app/?username=Dark-VenomX&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
 </div>
 
 <br>
