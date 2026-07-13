@@ -188,6 +188,33 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
 <br><br>
 
+## 🚀 Production Deployments & Open Source
+
+*Showcasing architectural design, enterprise-grade AI integration, and scalable full-stack builds.*
+
+<div align="center">
+  <a href="https://github.com/Dark-VenomX">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=spell-test-engine&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
+  </a>
+  <a href="https://github.com/Dark-VenomX">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=complaint-tracker-module&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/Dark-VenomX">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=lead-generation-system&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
+  </a>
+  <a href="https://github.com/Dark-VenomX">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=AI-employee-data-module&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
+  </a>
+</div>
+
+*(Note: Update the `repo=` parameters in the URLs above to match your actual public repository names!)*
+
+<br><br>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<br><br>
+
 ## 📈 System Analytics & Contributions
 
 *Live telemetry of my open-source and private repository contributions, styled in a bespoke Midnight & Gold aesthetic.*
@@ -216,6 +243,18 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" />
+</div>
+
+<br><br>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<br><br>
+
+## ⏱️ Live IDE Telemetry
+
+*Real-time tracking of my weekly development cycles and language distribution.*
+
+<div align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=Dark-VenomX&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&layout=compact" />
 </div>
 
 <br><br>
