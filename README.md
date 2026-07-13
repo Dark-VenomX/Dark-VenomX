@@ -121,6 +121,73 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
   </table>
 </div>
 
+<br><br>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<br><br>
+
+## 📜 Premium Certifications & Credentials
+
+*An extensive portfolio of verified technical and strategic credentials from industry-leading institutions.*
+
+<br>
+
+<div align="center">
+  <table style="border-collapse: collapse; border: none; text-align: left;">
+    <tr>
+      <td width="50%" valign="top" style="border: none; padding-bottom: 20px; padding-right: 20px;">
+        <h3 align="center" style="color: #F5D061;">🧠 AI & Data Science</h3>
+        <ul>
+          <li><b>Advanced Machine Learning & Data Analytics</b> <br><i>Google</i></li>
+          <li><b>Designing Autonomous AI</b> <br><i>University of Washington</i></li>
+          <li><b>Machine Learning to Deep Learning</b> <br><i>Indian Space Research Organization (ISRO)</i></li>
+          <li><b>Python for Data Science</b> <br><i>IBM</i></li>
+          <li><b>AI Applications on Azure</b> <br><i>LearnQuest & Microsoft</i></li>
+          <li><b>Prompt Engineering</b> <br><i>Vanderbilt University</i></li>
+        </ul>
+      </td>
+      <td width="50%" valign="top" style="border: none; padding-bottom: 20px; padding-left: 20px;">
+        <h3 align="center" style="color: #F5D061;">💻 Full-Stack & Mobile</h3>
+        <ul>
+          <li><b>Full Stack Software Developer</b> <br><i>IBM</i></li>
+          <li><b>Back-End & Front-End Developer</b> <br><i>Meta</i></li>
+          <li><b>iOS, Android & React Native Developer</b> <br><i>Meta</i></li>
+          <li><b>AR Developer</b> <br><i>Meta</i></li>
+          <li><b>Advanced SQL Certifications</b> <br><i>HackerRank</i></li>
+          <li><b>Java Core & Excellence</b> <br><i>Coding Ninjas</i></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top" style="border: none; padding-right: 20px;">
+        <h3 align="center" style="color: #F5D061;">☁️ Cloud & DevOps</h3>
+        <ul>
+          <li><b>DevOps and Software Engineering</b> <br><i>IBM</i></li>
+          <li><b>Google Cloud Digital Leader</b> <br><i>Google Cloud Training</i></li>
+          <li><b>Industrial IoT on Google Cloud</b> <br><i>Google</i></li>
+          <li><b>System Administration</b> <br><i>Microsoft</i></li>
+          <li><b>Network Routing & Packet Tracer</b> <br><i>Cisco Networking Academy</i></li>
+          <li><b>Ethical Hacking Essentials</b> <br><i>CodeRed</i></li>
+        </ul>
+      </td>
+      <td width="50%" valign="top" style="border: none; padding-left: 20px;">
+        <h3 align="center" style="color: #F5D061;">📊 Leadership & Strategy</h3>
+        <ul>
+          <li><b>Game Theory I & II</b> <br><i>Stanford University</i></li>
+          <li><b>Project Management & UX Design</b> <br><i>Google</i></li>
+          <li><b>Leadership Skills</b> <br><i>IIM Ahmedabad</i></li>
+          <li><b>Agile Leadership</b> <br><i>University of Colorado</i></li>
+          <li><b>Financial Markets</b> <br><i>Yale University</i></li>
+          <li><b>Business Analysis</b> <br><i>Microsoft</i></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br><br>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<br><br>
+
 ## 📈 System Analytics & Contributions
 
 *Live telemetry of my open-source and private repository contributions, styled in a bespoke Midnight & Gold aesthetic.*
@@ -139,6 +206,16 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 ## 🏆 GitHub Hall of Fame
 <div align="center">
   <img src="https://github-profile-trophy-tawny.vercel.app/?username=Dark-VenomX&theme=gitdimmed&no-frame=false&no-bg=true&margin-w=4&title_color=F5D061&text_color=A6B4C8" />
+</div>
+
+<br><br>
+
+## 📉 31-Day Activity Dashboard
+
+*Real-time animated plotting of my recent repository contributions and code output.*
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" />
 </div>
 
 <br><br>
