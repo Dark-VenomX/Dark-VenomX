@@ -1,5 +1,14 @@
+<!-- 
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  KAUSTUV MISHRA · GitHub Profile                             ║
+  ║  Custom animated SVGs live in /assets                        ║
+  ║  Palette · Gold #F5D061 · Obsidian #0A0A0A · Steel #A6B4C8   ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<!-- ░░░ HERO ░░░ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0A0A0A&height=250&section=header&text=Kaustuv%20Mishra&fontSize=70&fontColor=F5D061&animation=twinkling&desc=AI%20Architect%20|%20Enterprise%20Engineer&descAlignY=70&descAlign=62" alt="Header" width="100%" />
+  <img src="assets/hero.svg" width="100%" alt="Kaustuv Mishra — AI Architect" />
 </p>
 
 <div align="center">
@@ -23,7 +32,8 @@
 
 </div>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Gold Energy Divider" /></p>
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="Divider" /></p>
 
 ## 🌐 Executive Summary
 
@@ -38,7 +48,8 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br clear="all" />
 
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Gold Energy Divider" /></p>
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="Divider" /></p>
 
 ## ⚙️ The Technology Arsenal
 
@@ -50,14 +61,11 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=F5D061&text_color=A6B4C8&bg_color=0A0A0A" alt="Top Languages" />
 </div>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Gold Energy Divider" /></p>
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="Divider" /></p>
 
 ## 📈 System Analytics & Contributions
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dark-VenomX&theme=dark" width="97%" alt="Profile Details" />
-</div>
-<br>
 <div align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&ring_color=F5D061" width="48%" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=Dark-VenomX&hide_border=true&background=0A0A0A&ring=F5D061&fire=F5D061&currStreakNum=FFFFFF&currStreakLabel=F5D061&sideNums=A6B4C8&sideLabels=A6B4C8&dates=A6B4C8&stroke=F5D061&titleColor=F5D061" width="48%" alt="GitHub Streak" />
@@ -77,12 +85,13 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" alt="Activity Graph" />
 </div>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Gold Energy Divider" /></p>
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="Divider" /></p>
 
 ## 🤝 Let's Architect Something Extraordinary
 
 <div align="center">
-  <img src="image_20ccc8.png" width="300" alt="Developer Station" />
+  <img src="assets/image_20ccc8.png" width="300" alt="Developer Station" />
   <br><br>
   <i>Open for high-level collaborations, architectural consulting, and enterprise builds.</i>
   <br><br>
@@ -97,9 +106,5 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br>
 
 <p align="center">
-  <b>Architecting the Future, One Commit at a Time.</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,100:1a1a1a&height=90&section=footer&width=100%" alt="Footer" />
 </p>
-
-<div align="center">
-  [![Profile Views](https://visitcount.itsvg.in/api?id=Dark-VenomX&title=Profile%20Views&title_color=F5D061&icon_color=F5D061&bg_color=0A0A0A&text_color=ffffff)](https://visitcount.itsvg.in)
-</div>
