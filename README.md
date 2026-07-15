@@ -19,30 +19,28 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
-<img src="image_20d047.png" width="100%" alt="Divider" />
+<img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
 <br><br>
 
 </div>
 
 ## 🌐 Executive Summary
 
-<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td width="65%" valign="top" style="border: none; padding-right: 20px;">
-      I am an <b>AI Engineer and Full Stack Architect</b> who loves solving complex problems through intelligent design. I focus on building enterprise-grade AI models for massive datasets and architecting highly scalable web applications, including custom complaint trackers and logic-driven engines. I specialize in bridging the gap between advanced machine learning and seamless user experiences.<br><br>
-      <ul>
-        <li>🔭 <b>Current Focus:</b> Pioneering large-scale AI applications, optimizing complex data systems, and deploying robust cloud architectures.</li>
-        <li>💼 <b>Domain Expertise:</b> Designing intelligent lead generation ecosystems, automating data pipelines, and handling sensitive datasets with high availability.</li>
-        <li>🌱 <b>Continuous Evolution:</b> Deep-diving into advanced ML methodologies, sophisticated DevOps pipelines, and multi-cloud scaling across AWS, GCP, and Azure.</li>
-        <li>⚡ <b>The Human Element:</b> The discipline I bring to engineering comes directly from my life away from the keyboard. With over a decade dedicated to martial arts and MMA, I approach problem-solving with rigorous focus.</li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="middle" style="border: none;">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=F5D061&background=00000000&center=true&vCenter=true&width=350&height=250&lines=>_Initializing_AI_Core...;>_Deploying_Neural_Nets...;>_Scaling_Cloud_Nodes...;>_System_Online_&_Ready." alt="Animated Terminal" style="border-radius: 10px; border: 1px solid #F5D061;">
-    </td>
-  </tr>
-</table>
+<img align="right" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=F5D061&background=00000000&center=true&vCenter=true&width=330&height=220&lines=>_Initializing_AI_Core...;>_Deploying_Neural_Nets...;>_Scaling_Cloud_Nodes...;>_System_Online_&_Ready." alt="Animated Terminal" style="margin-left: 20px;" />
 
+I am an **AI Engineer and Full Stack Architect** who loves solving complex problems through intelligent design. I focus on building enterprise-grade AI models for massive datasets and architecting highly scalable web applications, including custom complaint trackers and logic-driven engines. I specialize in bridging the gap between advanced machine learning and seamless user experiences.
+
+- 🔭 **Current Focus:** Pioneering large-scale AI applications, optimizing complex data systems, and deploying robust cloud architectures.
+- 💼 **Domain Expertise:** Designing intelligent lead generation ecosystems, automating data pipelines, and handling sensitive datasets with high availability.
+- 🌱 **Continuous Evolution:** Deep-diving into advanced ML methodologies, sophisticated DevOps pipelines, and multi-cloud scaling across AWS, GCP, and Azure.
+- ⚡ **The Human Element:** The discipline I bring to engineering comes directly from my life away from the keyboard. With over a decade dedicated to martial arts and MMA, I approach problem-solving with rigorous focus.
+
+<br clear="all" />
+
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+</div>
 <br>
 
 ## ⚙️ The Technology Arsenal
@@ -52,7 +50,7 @@
 <br>
 
 <div align="center">
-  <table style="border-collapse: collapse; border: none;">
+  <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
     <tr>
       <td align="center" width="50%" valign="top" style="border: none; padding-bottom: 30px;">
         <h3>🧠 Intelligence & Data Science</h3>
@@ -132,9 +130,11 @@
   </table>
 </div>
 
-<br><br>
-<img src="image_20d047.png" width="100%" alt="Divider" />
-<br><br>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+</div>
+<br>
 
 ## 📜 Premium Certifications & Credentials
 
@@ -143,7 +143,7 @@
 <br>
 
 <div align="center">
-  <table style="border-collapse: collapse; border: none; text-align: left;">
+  <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; text-align: left;">
     <tr>
       <td width="50%" valign="top" style="border: none; padding-bottom: 20px; padding-right: 20px;">
         <h3 align="center" style="color: #F5D061;">🧠 AI & Data Science</h3>
@@ -195,9 +195,11 @@
   </table>
 </div>
 
-<br><br>
-<img src="image_20d047.png" width="100%" alt="Divider" />
-<br><br>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+</div>
+<br>
 
 ## ♟️ Core Engineering Directives
 
@@ -208,9 +210,11 @@
 - **3. Uncompromising Security:** Security protocols are embedded at the genesis of the development cycle, ensuring that enterprise data is locked down at every endpoint.
 - **4. Relentless Execution:** Writing code that is as elegant for machines to compile as it is for other engineers to read. Form always meets function.
 
-<br><br>
-<img src="image_20d047.png" width="100%" alt="Divider" />
-<br><br>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+</div>
+<br>
 
 ## 📈 System Analytics & Contributions
 
@@ -246,12 +250,14 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" />
 </div>
 
-<br><br>
-<img src="image_20d047.png" width="100%" alt="Divider" />
-<br><br>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+</div>
+<br>
 
 <div align="center">
-  <img src="image_20ccc8.png" width="250" alt="Developer Station" style="margin-bottom: 20px;" />
+  <img src="image_20ccc8.png" width="300" alt="Developer Station" style="margin-bottom: 20px;" />
   <h2 style="color: #F5D061;">Let's Architect Something Extraordinary.</h2>
   <p>Open for high level collaborations, architectural consulting, and enterprise builds.</p>
   <br>
