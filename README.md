@@ -19,7 +19,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=16&duration=2000&pause=100&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━;▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" alt="Terminal Divider" />
+<hr style="border: 0; height: 2px; background: #F5D061; width: 100%;">
 <br><br>
 
 </div>
@@ -40,12 +40,10 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br clear="all" />
 
 <br>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=16&duration=2000&pause=100&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━;▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" alt="Terminal Divider" />
+<hr style="border: 0; height: 2px; background: #F5D061; width: 100%;">
 <br>
 
 ## ⚙️ The Technology Arsenal
-
-*A meticulously curated stack of languages, frameworks, and infrastructure tools utilized to deploy production ready ecosystems.*
 
 <br>
 
@@ -87,7 +85,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <br>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=16&duration=2000&pause=100&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━;▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" alt="Terminal Divider" />
+<hr style="border: 0; height: 2px; background: #F5D061; width: 100%;">
 <br>
 
 ## 📜 Premium Certifications & Credentials
@@ -122,7 +120,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <br>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=16&duration=2000&pause=100&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━;▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" alt="Terminal Divider" />
+<hr style="border: 0; height: 2px; background: #F5D061; width: 100%;">
 <br>
 
 ## 📈 System Analytics & Contributions
@@ -151,18 +149,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br><br>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote_color=F5D061&author_color=A6B4C8&bg_color=0A0A0A" />
-</div>
-
 ---
-<div align="center">
-  
-**Architecting the Future, One Commit at a Time.**
-
-[![](https://visitcount.itsvg.in/api?id=Dark-VenomX&title=Profile%20Views&title_color=F5D061&icon_color=F5D061&bg_color=0A0A0A&text_color=ffffff)](https://visitcount.itsvg.in)
-</div>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0A0A0A&height=100&section=footer&width=100%" alt="Footer" />
 </p>
