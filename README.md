@@ -1,14 +1,14 @@
-<!--
+<!-- 
   ╔══════════════════════════════════════════════════════════════╗
-  ║  KAUSTUV MISHRA · GitHub Profile                               ║
-  ║  Custom animated SVGs live in /assets — hand-authored (SMIL).  ║
-  ║  Palette · Gold #F5D061 · Obsidian #0A0A0A · Steel #A6B4C8     ║
+  ║  KAUSTUV MISHRA · GitHub Profile                             ║
+  ║  Custom animated SVGs live in /assets                        ║
+  ║  Palette · Gold #F5D061 · Obsidian #0A0A0A · Steel #A6B4C8   ║
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
 <!-- ░░░ HERO ░░░ -->
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Kaustuv Mishra — AI Architect | Enterprise Engineer" />
+  <img src="assets/hero.svg" width="100%" alt="Kaustuv Mishra — AI Architect" />
 </p>
 
 <div align="center">
@@ -33,7 +33,7 @@
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="Divider" /></p>
 
 ## 🌐 Executive Summary
 
@@ -49,7 +49,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br clear="all" />
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="Divider" /></p>
 
 ## ⚙️ The Technology Arsenal
 
@@ -58,225 +58,53 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%" valign="top">
-        <h3>🧠 Intelligence &amp; Data Science</h3>
-        <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=ffdd54" />
-        <img src="https://img.shields.io/badge/TensorFlow-0A0A0A?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00" />
-        <img src="https://img.shields.io/badge/PyTorch-0A0A0A?style=for-the-badge&logo=PyTorch&logoColor=EE4C2C" />
-        <img src="https://img.shields.io/badge/Keras-0A0A0A?style=for-the-badge&logo=Keras&logoColor=D00000" />
-        <img src="https://img.shields.io/badge/scikit--learn-0A0A0A?style=for-the-badge&logo=scikit-learn&logoColor=F7931E" />
-        <img src="https://img.shields.io/badge/Pandas-0A0A0A?style=for-the-badge&logo=pandas&logoColor=ffffff" />
-        <img src="https://img.shields.io/badge/NumPy-0A0A0A?style=for-the-badge&logo=numpy&logoColor=4DABCF" />
-        <img src="https://img.shields.io/badge/SciPy-0A0A0A?style=for-the-badge&logo=scipy&logoColor=0C55A5" />
-        <img src="https://img.shields.io/badge/Matplotlib-0A0A0A?style=for-the-badge&logo=Matplotlib&logoColor=ffffff" />
-        <img src="https://img.shields.io/badge/R-0A0A0A?style=for-the-badge&logo=r&logoColor=276DC3" />
-        <img src="https://img.shields.io/badge/Anaconda-0A0A0A?style=for-the-badge&logo=anaconda&logoColor=44A833" />
-      </td>
-      <td align="center" width="50%" valign="top">
-        <h3>🌐 Frontend &amp; UI/UX</h3>
-        <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=next.js&logoColor=ffffff" />
-        <img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=3178C6" />
-        <img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-        <img src="https://img.shields.io/badge/Angular-0A0A0A?style=for-the-badge&logo=angular&logoColor=DD0031" />
-        <img src="https://img.shields.io/badge/Redux-0A0A0A?style=for-the-badge&logo=redux&logoColor=764ABC" />
-        <img src="https://img.shields.io/badge/HTML5-0A0A0A?style=for-the-badge&logo=html5&logoColor=E34F26" />
-        <img src="https://img.shields.io/badge/CSS3-0A0A0A?style=for-the-badge&logo=css3&logoColor=1572B6" />
-        <img src="https://img.shields.io/badge/Bootstrap-0A0A0A?style=for-the-badge&logo=bootstrap&logoColor=8511FA" />
-        <img src="https://img.shields.io/badge/Figma-0A0A0A?style=for-the-badge&logo=figma&logoColor=F24E1E" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%" valign="top">
-        <h3>⚙️ Backend &amp; Core</h3>
-        <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=node.js&logoColor=6DA55F" />
-        <img src="https://img.shields.io/badge/Express.js-0A0A0A?style=for-the-badge&logo=express&logoColor=ffffff" />
-        <img src="https://img.shields.io/badge/C++-0A0A0A?style=for-the-badge&logo=c%2B%2B&logoColor=00599C" />
-        <img src="https://img.shields.io/badge/Java-0A0A0A?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
-        <img src="https://img.shields.io/badge/C%23-0A0A0A?style=for-the-badge&logo=csharp&logoColor=239120" />
-        <img src="https://img.shields.io/badge/Go-0A0A0A?style=for-the-badge&logo=go&logoColor=00ADD8" />
-        <img src="https://img.shields.io/badge/Rust-0A0A0A?style=for-the-badge&logo=rust&logoColor=ffffff" />
-        <img src="https://img.shields.io/badge/PHP-0A0A0A?style=for-the-badge&logo=php&logoColor=777BB4" />
-        <img src="https://img.shields.io/badge/Scala-0A0A0A?style=for-the-badge&logo=scala&logoColor=DC322F" />
-        <img src="https://img.shields.io/badge/Kotlin-0A0A0A?style=for-the-badge&logo=kotlin&logoColor=7F52FF" />
-        <img src="https://img.shields.io/badge/Socket.io-0A0A0A?style=for-the-badge&logo=socket.io&logoColor=ffffff" />
-      </td>
-      <td align="center" width="50%" valign="top">
-        <h3>☁️ Cloud &amp; Infrastructure</h3>
-        <img src="https://img.shields.io/badge/AWS-0A0A0A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
-        <img src="https://img.shields.io/badge/GCP-0A0A0A?style=for-the-badge&logo=googlecloud&logoColor=4285F4" />
-        <img src="https://img.shields.io/badge/Azure-0A0A0A?style=for-the-badge&logo=microsoftazure&logoColor=0089D6" />
-        <img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=2496ED" />
-        <img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=for-the-badge&logo=mongodb&logoColor=47A248" />
-        <img src="https://img.shields.io/badge/MySQL-0A0A0A?style=for-the-badge&logo=mysql&logoColor=4479A1" />
-        <img src="https://img.shields.io/badge/SQL_Server-0A0A0A?style=for-the-badge&logo=microsoftsqlserver&logoColor=CC2927" />
-        <img src="https://img.shields.io/badge/Cassandra-0A0A0A?style=for-the-badge&logo=apachecassandra&logoColor=1287B1" />
-        <img src="https://img.shields.io/badge/Firebase-0A0A0A?style=for-the-badge&logo=firebase&logoColor=FFCA28" />
-        <img src="https://img.shields.io/badge/Oracle-0A0A0A?style=for-the-badge&logo=oracle&logoColor=F80000" />
-        <img src="https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=F05033" />
-        <img src="https://img.shields.io/badge/Bash-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=ffffff" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=F5D061&text_color=A6B4C8&bg_color=0A0A0A" alt="Top Languages" />
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="Divider" /></p>
 
-## 📜 Premium Certifications &amp; Credentials
-
-<div align="center"><i>An extensive portfolio of verified technical and strategic credentials from industry-leading institutions.</i></div>
-
-<br>
+## 📈 System Analytics & Contributions
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <h3 align="center">🧠 AI &amp; Data Science</h3>
-        <ul>
-          <li><b>Advanced Machine Learning &amp; Data Analytics</b> · <i>Google</i></li>
-          <li><b>Designing Autonomous AI</b> · <i>University of Washington</i></li>
-          <li><b>Machine Learning to Deep Learning</b> · <i>ISRO</i></li>
-          <li><b>Python for Data Science</b> · <i>IBM</i></li>
-          <li><b>AI Applications on Azure</b> · <i>LearnQuest &amp; Microsoft</i></li>
-          <li><b>Prompt Engineering</b> · <i>Vanderbilt University</i></li>
-        </ul>
-      </td>
-      <td width="50%" valign="top">
-        <h3 align="center">💻 Full Stack &amp; Mobile</h3>
-        <ul>
-          <li><b>Full Stack Software Developer</b> · <i>IBM</i></li>
-          <li><b>Back End &amp; Front End Developer</b> · <i>Meta</i></li>
-          <li><b>iOS, Android &amp; React Native</b> · <i>Meta</i></li>
-          <li><b>AR Developer</b> · <i>Meta</i></li>
-          <li><b>Advanced SQL Certifications</b> · <i>HackerRank</i></li>
-          <li><b>Java Core &amp; Excellence</b> · <i>Coding Ninjas</i></li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <h3 align="center">☁️ Cloud &amp; DevOps</h3>
-        <ul>
-          <li><b>DevOps and Software Engineering</b> · <i>IBM</i></li>
-          <li><b>Google Cloud Digital Leader</b> · <i>Google Cloud</i></li>
-          <li><b>Industrial IoT on Google Cloud</b> · <i>Google</i></li>
-          <li><b>System Administration</b> · <i>Microsoft</i></li>
-          <li><b>Network Routing &amp; Packet Tracer</b> · <i>Cisco</i></li>
-          <li><b>Ethical Hacking Essentials</b> · <i>CodeRed</i></li>
-        </ul>
-      </td>
-      <td width="50%" valign="top">
-        <h3 align="center">📊 Leadership &amp; Strategy</h3>
-        <ul>
-          <li><b>Game Theory I &amp; II</b> · <i>Stanford University</i></li>
-          <li><b>Project Management &amp; UX Design</b> · <i>Google</i></li>
-          <li><b>Leadership Skills</b> · <i>IIM Ahmedabad</i></li>
-          <li><b>Agile Leadership</b> · <i>University of Colorado</i></li>
-          <li><b>Financial Markets</b> · <i>Yale University</i></li>
-          <li><b>Business Analysis</b> · <i>Microsoft</i></li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
-
-## ♟️ Core Engineering Directives
-
-<div align="center"><i>The foundational principles I apply to every enterprise system I architect.</i></div>
-
-<br>
-
-- **1 · Built for Scale** — Systems should not merely survive peak loads; they scale effortlessly and autonomously to meet them.
-- **2 · Intelligence by Design** — ML is never an afterthought. Models are woven into the core infrastructure for maximum impact.
-- **3 · Uncompromising Security** — Security is embedded at the genesis of the development cycle, locking down data at every endpoint.
-- **4 · Relentless Execution** — Code that is as elegant for machines to compile as it is for engineers to read. Form always meets function.
-
-<!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
-
-## 📈 System Analytics &amp; Contributions
-
-<div align="center"><i>Live telemetry of my open-source and private repository contributions.</i></div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dark-VenomX&theme=dark" width="97%" alt="Profile Details" />
-</div>
-<br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&ring_color=F5D061" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&ring_color=F5D061" width="48%" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=Dark-VenomX&hide_border=true&background=0A0A0A&ring=F5D061&fire=F5D061&currStreakNum=FFFFFF&currStreakLabel=F5D061&sideNums=A6B4C8&sideLabels=A6B4C8&dates=A6B4C8&stroke=F5D061&titleColor=F5D061" width="48%" alt="GitHub Streak" />
-</div>
-<br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=F5D061&text_color=A6B4C8&bg_color=0A0A0A" alt="Top Languages" />
-</div>
-
-<br>
-
-### 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
 </div>
 
 <br>
 
 ### 🏆 GitHub Hall of Fame
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Dark-VenomX&theme=matrix&no-frame=true&no-bg=true&margin-w=4&title_color=F5D061&text_color=A6B4C8" alt="Trophies" />
+  <img src="https://github-profile-trophy-tawny.vercel.app/?username=Dark-VenomX&theme=matrix&no-frame=true&no-bg=true&margin-w=4&title_color=F5D061&text_color=A6B4C8" alt="Trophies" />
 </div>
 
 <br>
 
 ### 📉 Activity Dashboard
-
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" alt="Activity Graph" />
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="Divider" /></p>
 
 ## 🤝 Let's Architect Something Extraordinary
 
 <div align="center">
-
-<i>Open for high-level collaborations, architectural consulting, and enterprise builds.</i>
-
-<br><br>
-
-<a href="mailto:kaustuvmishra1@gmail.com">
-  <img src="https://img.shields.io/badge/kaustuvmishra1@gmail.com-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061" alt="Email" />
-</a>
-<a href="https://www.linkedin.com/in/kaustuv-mishra-787684214/">
-  <img src="https://img.shields.io/badge/LinkedIn_Connect-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=F5D061" alt="LinkedIn" />
-</a>
-
-<br><br>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote_color=F5D061&author_color=A6B4C8&bg_color=0A0A0A" alt="Quote" />
-
+  <img src="assets/image_20ccc8.png" width="300" alt="Developer Station" />
+  <br><br>
+  <i>Open for high-level collaborations, architectural consulting, and enterprise builds.</i>
+  <br><br>
+  <a href="mailto:kaustuvmishra1@gmail.com">
+    <img src="https://img.shields.io/badge/kaustuvmishra1@gmail.com-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/kaustuv-mishra-787684214/">
+    <img src="https://img.shields.io/badge/LinkedIn_Connect-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=F5D061" alt="LinkedIn" />
+  </a>
 </div>
 
-<!-- ░░░ FOOTER SIGNATURE ░░░ -->
-<p align="center"><img src="assets/footer.svg" width="80%" alt="Architecting the Future, One Commit at a Time." /></p>
-
-<div align="center">
-
-[![Profile Views](https://visitcount.itsvg.in/api?id=Dark-VenomX&title=Profile%20Views&title_color=F5D061&icon_color=F5D061&bg_color=0A0A0A&text_color=ffffff)](https://visitcount.itsvg.in)
-
-</div>
+<br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,100:1a1a1a&height=90&section=footer&width=100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,100:1a1a1a&height=90&section=footer&width=100%" alt="Footer" />
 </p>
