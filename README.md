@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=700&lines=Engineering+Intelligent+Systems+at+Meta;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High-Performance+Code" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems+at+Meta+%26+Justdial;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High-Performance+Code" alt="Typing SVG" />
 
 <br><br>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
@@ -25,12 +25,12 @@
 
 ## 🌐 Executive Summary
 
-I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit of system optimization and intelligent design. Currently engineering enterprise-grade AI models at **Meta** and architecting complex, scalable web modules for high-traffic environments. I specialize in the intersection of advanced machine learning techniques and seamless, highly responsive user interfaces.
+I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit of system optimization and intelligent design. Currently engineering enterprise-grade AI models for employee datasets at **Meta** and architecting complex, highly scalable web modules—including advanced complaint trackers and logic-driven spell-test engines—at **Justdial**. I specialize in the intersection of cutting-edge machine learning techniques and seamless, zero-latency user interfaces.
 
 - 🔭 **Current Infrastructure:** Pioneering large-scale AI applications, optimizing complex enterprise data systems, and deploying robust cloud architectures.
-- 💼 **Domain Expertise:** Designing intelligent lead generation ecosystems, automated complaint tracking modules, and handling massive, sensitive datasets with zero-downtime tolerance.
+- 💼 **Domain Expertise:** Designing intelligent lead generation ecosystems, automating data pipelines, and handling massive, sensitive datasets with zero-downtime tolerance.
 - 🌱 **Continuous Evolution:** Deep-diving into next-generation ML methodologies, sophisticated DevOps CI/CD pipelines, and multi-cloud scaling (AWS/GCP/Azure).
-- ⚡ **The Human Element:** The discipline required for elite engineering translates directly to my life away from the keyboard. With over a decade of dedication to martial arts and MMA, I approach problem-solving with rigorous focus. I spend my late-night hours deep in tech research and literature, always staying one step ahead of the curve.
+- ⚡ **The Human Element:** The discipline required for elite engineering translates directly to my life away from the keyboard. With over a decade of dedication to martial arts and MMA, I approach problem-solving with rigorous focus and execution. I spend my late-night hours deep in tech research and literature, always staying one step ahead of the curve.
 
 <br>
 
@@ -237,10 +237,10 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 <div align="center">
   <h2 style="color: #F5D061;">Let's Architect Something Extraordinary.</h2>
-  <p>Open for high-level collaborations, architectural consulting, and open-source contributions.</p>
+  <p>Open for high-level collaborations, architectural consulting, and enterprise builds.</p>
   <br>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email_Me-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061&border=white" alt="Email" />
+  <a href="mailto:kaustuvmishra1@gmail.com">
+    <img src="https://img.shields.io/badge/kaustuvmishra1@gmail.com-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061&border=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/kaustuv-mishra-787684214/">
     <img src="https://img.shields.io/badge/LinkedIn_Connect-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=F5D061&border=white" alt="LinkedIn" />
