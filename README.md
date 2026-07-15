@@ -19,7 +19,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Premium Animated Divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F5D061&height=25&section=header" width="100%" alt="Animated Gold Divider" />
 <br><br>
 
 </div>
@@ -39,7 +39,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Premium Animated Divider" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5D061&height=25&section=header" width="100%" alt="Animated Gold Divider" />
 </div>
 <br>
 
@@ -132,7 +132,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Premium Animated Divider" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5D061&height=25&section=header" width="100%" alt="Animated Gold Divider" />
 </div>
 <br>
 
@@ -197,7 +197,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Premium Animated Divider" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5D061&height=25&section=header" width="100%" alt="Animated Gold Divider" />
 </div>
 <br>
 
@@ -212,7 +212,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Premium Animated Divider" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5D061&height=25&section=header" width="100%" alt="Animated Gold Divider" />
 </div>
 <br>
 
@@ -252,12 +252,12 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Premium Animated Divider" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5D061&height=25&section=header" width="100%" alt="Animated Gold Divider" />
 </div>
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/macbook.gif" width="300" alt="Developer Station" style="margin-bottom: 20px;" />
+  <img src="image_20ccc8.png" width="300" alt="Developer Station" style="margin-bottom: 20px;" />
   <h2 style="color: #F5D061;">Let's Architect Something Extraordinary.</h2>
   <p>Open for high level collaborations, architectural consulting, and enterprise builds.</p>
   <br>
