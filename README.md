@@ -85,6 +85,11 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" alt="Activity Graph" />
 </div>
 
+### 🐍 Contribution Snake
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
+</div>
+
 <!-- ░░░ DIVIDER ░░░ -->
 <p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="Divider" /></p>
 
