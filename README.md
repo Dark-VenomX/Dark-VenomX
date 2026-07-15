@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 align="center">⚡ KAUSTUV MISHRA ⚡</h1>
-<h3 align="center">AI Architect | Enterprise Full-Stack Engineer | Innovator</h3>
+<h3 align="center">AI Architect | Enterprise Full Stack Engineer | Innovator</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kaustuv-mishra-787684214/">
@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems+at+Meta+%26+Justdial;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High-Performance+Code" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
@@ -25,18 +25,18 @@
 
 ## 🌐 Executive Summary
 
-I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit of system optimization and intelligent design. Currently engineering enterprise-grade AI models for employee datasets at **Meta** and architecting complex, highly scalable web modules—including advanced complaint trackers and logic-driven spell-test engines—at **Justdial**. I specialize in the intersection of cutting-edge machine learning techniques and seamless, zero-latency user interfaces.
+I am an **AI Engineer and Full Stack Architect** who loves solving complex problems through intelligent design. I focus on building enterprise grade AI models for massive datasets and architecting highly scalable web applications, including custom complaint trackers and logic driven spell test engines. I specialize in bridging the gap between advanced machine learning and seamless user experiences.
 
-- 🔭 **Current Infrastructure:** Pioneering large-scale AI applications, optimizing complex enterprise data systems, and deploying robust cloud architectures.
-- 💼 **Domain Expertise:** Designing intelligent lead generation ecosystems, automating data pipelines, and handling massive, sensitive datasets with zero-downtime tolerance.
-- 🌱 **Continuous Evolution:** Deep-diving into next-generation ML methodologies, sophisticated DevOps CI/CD pipelines, and multi-cloud scaling (AWS/GCP/Azure).
-- ⚡ **The Human Element:** The discipline required for elite engineering translates directly to my life away from the keyboard. With over a decade of dedication to martial arts and MMA, I approach problem-solving with rigorous focus and execution. I spend my late-night hours deep in tech research and literature, always staying one step ahead of the curve.
+- 🔭 **Current Focus:** Pioneering large scale AI applications, optimizing complex data systems, and deploying robust cloud architectures.
+- 💼 **Domain Expertise:** Designing intelligent lead generation ecosystems, automating data pipelines, and handling sensitive datasets with high availability.
+- 🌱 **Continuous Evolution:** Deep diving into advanced ML methodologies, sophisticated DevOps pipelines, and multi cloud scaling across AWS, GCP, and Azure.
+- ⚡ **The Human Element:** The discipline I bring to engineering comes directly from my life away from the keyboard. With over a decade dedicated to martial arts and MMA, I approach problem solving with rigorous focus and execution. I spend my late night hours deep in tech research and literature, always staying one step ahead of the curve.
 
 <br>
 
 ## ⚙️ The Technology Arsenal
 
-*A meticulously curated stack of languages, frameworks, and infrastructure tools utilized to deploy production-ready ecosystems.*
+*A meticulously curated stack of languages, frameworks, and infrastructure tools utilized to deploy production ready ecosystems.*
 
 <br>
 
@@ -127,7 +127,7 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 ## 📜 Premium Certifications & Credentials
 
-*An extensive portfolio of verified technical and strategic credentials from industry-leading institutions.*
+*An extensive portfolio of verified technical and strategic credentials from industry leading institutions.*
 
 <br>
 
@@ -146,10 +146,10 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
         </ul>
       </td>
       <td width="50%" valign="top" style="border: none; padding-bottom: 20px; padding-left: 20px;">
-        <h3 align="center" style="color: #F5D061;">💻 Full-Stack & Mobile</h3>
+        <h3 align="center" style="color: #F5D061;">💻 Full Stack & Mobile</h3>
         <ul>
           <li><b>Full Stack Software Developer</b> <br><i>IBM</i></li>
-          <li><b>Back-End & Front-End Developer</b> <br><i>Meta</i></li>
+          <li><b>Back End & Front End Developer</b> <br><i>Meta</i></li>
           <li><b>iOS, Android & React Native Developer</b> <br><i>Meta</i></li>
           <li><b>AR Developer</b> <br><i>Meta</i></li>
           <li><b>Advanced SQL Certifications</b> <br><i>HackerRank</i></li>
@@ -190,12 +190,12 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 ## ♟️ Core Engineering Directives
 
-*The non-negotiable principles I apply to every enterprise system I architect.*
+*The foundational principles I apply to every enterprise system I architect.*
 
-- **1. Zero-Downtime Tolerance:** Systems shouldn't just survive peak loads; they must scale effortlessly and autonomously to meet them. 
+- **1. Built for Scale:** Systems should not just survive peak loads; they must scale effortlessly and autonomously to meet them. 
 - **2. Intelligence by Design:** Machine learning is not an afterthought. AI models must be seamlessly woven into the core infrastructure of the application for maximum impact.
-- **3. Uncompromising Security:** Security protocols are embedded at the genesis of the development cycle, ensuring that enterprise-level and sensitive data is locked down at every endpoint.
-- **4. Relentless Execution:** Writing code that is as elegant for machines to compile as it is for other engineers to read. Form meets function.
+- **3. Uncompromising Security:** Security protocols are embedded at the genesis of the development cycle, ensuring that enterprise data is locked down at every endpoint.
+- **4. Relentless Execution:** Writing code that is as elegant for machines to compile as it is for other engineers to read. Form always meets function.
 
 <br><br>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
@@ -203,7 +203,7 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 ## 📈 System Analytics & Contributions
 
-*Live telemetry of my open-source and private repository contributions, styled in a bespoke Midnight & Gold aesthetic.*
+*Live telemetry of my open source and private repository contributions, styled in a bespoke Midnight & Gold aesthetic.*
 
 <div align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&ring_color=F5D061" width="48%" />
@@ -225,7 +225,7 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 ## 📉 31-Day Activity Dashboard
 
-*Real-time animated plotting of my recent repository contributions and code output.*
+*Real time animated plotting of my recent repository contributions and code output.*
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" />
@@ -237,7 +237,7 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 
 <div align="center">
   <h2 style="color: #F5D061;">Let's Architect Something Extraordinary.</h2>
-  <p>Open for high-level collaborations, architectural consulting, and enterprise builds.</p>
+  <p>Open for high level collaborations, architectural consulting, and enterprise builds.</p>
   <br>
   <a href="mailto:kaustuvmishra1@gmail.com">
     <img src="https://img.shields.io/badge/kaustuvmishra1@gmail.com-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061&border=white" alt="Email" />
