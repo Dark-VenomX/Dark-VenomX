@@ -19,14 +19,14 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
-<img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Sweeping Energy Line" />
 <br><br>
 
 </div>
 
 ## 🌐 Executive Summary
 
-<img align="right" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=F5D061&background=00000000&center=true&vCenter=true&width=330&height=220&lines=>_Initializing_AI_Core...;>_Deploying_Neural_Nets...;>_Scaling_Cloud_Nodes...;>_System_Online_&_Ready." alt="Animated Terminal" style="margin-left: 20px;" />
+<img align="right" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2000&pause=1000&color=F5D061&background=0A0A0A&center=true&vCenter=true&width=330&height=220&lines=>_Initializing_AI_Core...;>_Deploying_Neural_Nets...;>_Scaling_Cloud_Nodes...;>_System_Online_&_Ready." alt="Animated Terminal" style="border-radius: 10px; border: 1px solid #F5D061; margin-left: 20px; box-shadow: 0px 0px 15px rgba(245, 208, 97, 0.2);" />
 
 I am an **AI Engineer and Full Stack Architect** who loves solving complex problems through intelligent design. I focus on building enterprise-grade AI models for massive datasets and architecting highly scalable web applications, including custom complaint trackers and logic-driven engines. I specialize in bridging the gap between advanced machine learning and seamless user experiences.
 
@@ -39,7 +39,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Sweeping Energy Line" />
 </div>
 <br>
 
@@ -132,7 +132,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Sweeping Energy Line" />
 </div>
 <br>
 
@@ -197,7 +197,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Sweeping Energy Line" />
 </div>
 <br>
 
@@ -212,7 +212,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Sweeping Energy Line" />
 </div>
 <br>
 
@@ -252,7 +252,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg" width="100%" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Sweeping Energy Line" />
 </div>
 <br>
 
