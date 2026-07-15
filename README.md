@@ -19,7 +19,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0A0A0A,F5D061,0A0A0A,F5D061&height=60&section=header" width="100%" alt="Liquid Gold Wave Divider" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━+⚡+INITIALIZING_CORE_SYSTEMS+⚡+━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Terminal Divider" />
 <br><br>
 
 </div>
@@ -39,7 +39,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0A0A0A,F5D061,0A0A0A,F5D061&height=60&section=header" width="100%" alt="Liquid Gold Wave Divider" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━+🧠+DEPLOYING_NEURAL_NETS+🧠+━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Terminal Divider" />
 </div>
 <br>
 
@@ -132,7 +132,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0A0A0A,F5D061,0A0A0A,F5D061&height=60&section=header" width="100%" alt="Liquid Gold Wave Divider" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━+🔐+SECURING_CLOUD_INFRASTRUCTURE+🔐+━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Terminal Divider" />
 </div>
 <br>
 
@@ -197,7 +197,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0A0A0A,F5D061,0A0A0A,F5D061&height=60&section=header" width="100%" alt="Liquid Gold Wave Divider" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━+⚙️+COMPILING_ARCHITECTURE+⚙️+━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Terminal Divider" />
 </div>
 <br>
 
@@ -212,7 +212,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0A0A0A,F5D061,0A0A0A,F5D061&height=60&section=header" width="100%" alt="Liquid Gold Wave Divider" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━+📊+ANALYZING_TELEMETRY+📊+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Terminal Divider" />
 </div>
 <br>
 
@@ -252,7 +252,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0A0A0A,F5D061,0A0A0A,F5D061&height=60&section=header" width="100%" alt="Liquid Gold Wave Divider" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2000&pause=1000&color=F5D061&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━+🚀+SYSTEM_ONLINE_AND_READY+🚀+━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Terminal Divider" />
 </div>
 <br>
 
