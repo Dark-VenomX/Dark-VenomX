@@ -19,7 +19,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F5D061&center=true&vCenter=true&width=750&lines=Engineering+Intelligent+Systems;Architecting+Enterprise+Web+Solutions;Bridging+Machine+Learning+%26+Scalable+Architecture;Turning+Coffee+Into+High+Performance+Code" alt="Typing SVG" />
 
 <br><br>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<img src="image_20d047.png" width="100%" alt="Divider" />
 <br><br>
 
 </div>
@@ -38,7 +38,7 @@
       </ul>
     </td>
     <td width="35%" align="center" valign="middle" style="border: none;">
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" alt="Animated machine learning visual" style="border-radius: 10px;">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=F5D061&background=00000000&center=true&vCenter=true&width=350&height=250&lines=>_Initializing_AI_Core...;>_Deploying_Neural_Nets...;>_Scaling_Cloud_Nodes...;>_System_Online_&_Ready." alt="Animated Terminal" style="border-radius: 10px; border: 1px solid #F5D061;">
     </td>
   </tr>
 </table>
@@ -133,7 +133,7 @@
 </div>
 
 <br><br>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<img src="image_20d047.png" width="100%" alt="Divider" />
 <br><br>
 
 ## 📜 Premium Certifications & Credentials
@@ -196,7 +196,7 @@
 </div>
 
 <br><br>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<img src="image_20d047.png" width="100%" alt="Divider" />
 <br><br>
 
 ## ♟️ Core Engineering Directives
@@ -209,7 +209,7 @@
 - **4. Relentless Execution:** Writing code that is as elegant for machines to compile as it is for other engineers to read. Form always meets function.
 
 <br><br>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<img src="image_20d047.png" width="100%" alt="Divider" />
 <br><br>
 
 ## 📈 System Analytics & Contributions
@@ -247,10 +247,11 @@
 </div>
 
 <br><br>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<img src="image_20d047.png" width="100%" alt="Divider" />
 <br><br>
 
 <div align="center">
+  <img src="image_20ccc8.png" width="250" alt="Developer Station" style="margin-bottom: 20px;" />
   <h2 style="color: #F5D061;">Let's Architect Something Extraordinary.</h2>
   <p>Open for high level collaborations, architectural consulting, and enterprise builds.</p>
   <br>
