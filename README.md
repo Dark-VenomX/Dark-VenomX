@@ -1,7 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0A0A0A&height=250&section=header&text=Kaustuv%20Mishra&fontSize=70&fontColor=F5D061&animation=twinkling&desc=AI%20Architect%20|%20Enterprise%20Engineer&descAlignY=70&descAlign=62" alt="Header" width="100%" />
+</p>
 
-<h1 align="center">⚡ KAUSTUV MISHRA ⚡</h1>
-<h3 align="center">AI Architect | Enterprise Full Stack Engineer | Innovator</h3>
+<div align="center">
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kaustuv-mishra-787684214/">
@@ -25,12 +26,22 @@
 
 ## 🌐 Executive Summary
 
-I am an **AI Engineer and Full Stack Architect** who loves solving complex problems through intelligent design. I focus on building enterprise grade AI models for massive datasets and architecting highly scalable web applications, including custom complaint trackers and logic driven spell test engines. I specialize in bridging the gap between advanced machine learning and seamless user experiences.
-
-- 🔭 **Current Focus:** Pioneering large scale AI applications, optimizing complex data systems, and deploying robust cloud architectures.
-- 💼 **Domain Expertise:** Designing intelligent lead generation ecosystems, automating data pipelines, and handling sensitive datasets with high availability.
-- 🌱 **Continuous Evolution:** Deep diving into advanced ML methodologies, sophisticated DevOps pipelines, and multi cloud scaling across AWS, GCP, and Azure.
-- ⚡ **The Human Element:** The discipline I bring to engineering comes directly from my life away from the keyboard. With over a decade dedicated to martial arts and MMA, I approach problem solving with rigorous focus and execution. I spend my late night hours deep in tech research and literature, always staying one step ahead of the curve.
+<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td width="65%" valign="top" style="border: none; padding-right: 20px;">
+      I am an <b>AI Engineer and Full Stack Architect</b> who loves solving complex problems through intelligent design. I focus on building enterprise-grade AI models for massive datasets and architecting highly scalable web applications, including custom complaint trackers and logic-driven engines. I specialize in bridging the gap between advanced machine learning and seamless user experiences.<br><br>
+      <ul>
+        <li>🔭 <b>Current Focus:</b> Pioneering large-scale AI applications, optimizing complex data systems, and deploying robust cloud architectures.</li>
+        <li>💼 <b>Domain Expertise:</b> Designing intelligent lead generation ecosystems, automating data pipelines, and handling sensitive datasets with high availability.</li>
+        <li>🌱 <b>Continuous Evolution:</b> Deep-diving into advanced ML methodologies, sophisticated DevOps pipelines, and multi-cloud scaling across AWS, GCP, and Azure.</li>
+        <li>⚡ <b>The Human Element:</b> The discipline I bring to engineering comes directly from my life away from the keyboard. With over a decade dedicated to martial arts and MMA, I approach problem-solving with rigorous focus.</li>
+      </ul>
+    </td>
+    <td width="35%" align="center" valign="middle" style="border: none;">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2J1a3Q1cTB0MGg2d2p0Z3g2eTJpY3J3a3Rqd3VzdnE1a2l3a3ZrbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" alt="Animated machine learning visual" style="border-radius: 10px;">
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -203,8 +214,12 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 ## 📈 System Analytics & Contributions
 
-*Live telemetry of my open source and private repository contributions, styled in a bespoke Midnight & Gold aesthetic.*
+*Live telemetry of my open source and private repository contributions.*
 
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dark-VenomX&theme=dark" width="97%" alt="Profile Details" />
+</div>
+<br>
 <div align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&ring_color=F5D061" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dark-VenomX&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&background=0A0A0A&ring=F5D061&fire=F5D061&currStreakNum=ffffff" width="48%" />
@@ -260,3 +275,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 [![](https://visitcount.itsvg.in/api?id=Dark-VenomX&title=Profile%20Views&title_color=F5D061&icon_color=F5D061&bg_color=0A0A0A&text_color=ffffff)](https://visitcount.itsvg.in)
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0A0A0A&height=100&section=footer&width=100%" alt="Footer" />
+</p>
