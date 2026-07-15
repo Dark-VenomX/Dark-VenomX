@@ -217,7 +217,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 ## 🤝 Let's Architect Something Extraordinary
 
 <div align="center">
-  <img src="assets/image_20ccc8.png" width="300" alt="Developer Station" />
+  <img src="assets/showcase.png" width="300" alt="Developer Station" />
   <br><br>
   <i>Open for high-level collaborations, architectural consulting, and enterprise builds.</i>
   <br><br>
