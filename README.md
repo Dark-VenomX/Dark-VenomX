@@ -58,11 +58,132 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Dark-VenomX&hide_border=true&include_all_commits=true&count_private=false&layout=compact&title_color=F5D061&text_color=A6B4C8&bg_color=0A0A0A" alt="Top Languages" />
+  <table>
+    <tr>
+      <td align="center" width="50%" valign="top">
+        <h3>🧠 Intelligence & Data Science</h3>
+        <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=ffdd54" />
+        <img src="https://img.shields.io/badge/TensorFlow-0A0A0A?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00" />
+        <img src="https://img.shields.io/badge/PyTorch-0A0A0A?style=for-the-badge&logo=PyTorch&logoColor=EE4C2C" />
+        <img src="https://img.shields.io/badge/Keras-0A0A0A?style=for-the-badge&logo=Keras&logoColor=D00000" />
+        <img src="https://img.shields.io/badge/scikit--learn-0A0A0A?style=for-the-badge&logo=scikit-learn&logoColor=F7931E" />
+        <img src="https://img.shields.io/badge/Pandas-0A0A0A?style=for-the-badge&logo=pandas&logoColor=ffffff" />
+        <img src="https://img.shields.io/badge/NumPy-0A0A0A?style=for-the-badge&logo=numpy&logoColor=4DABCF" />
+        <img src="https://img.shields.io/badge/SciPy-0A0A0A?style=for-the-badge&logo=scipy&logoColor=0C55A5" />
+        <img src="https://img.shields.io/badge/Matplotlib-0A0A0A?style=for-the-badge&logo=Matplotlib&logoColor=ffffff" />
+      </td>
+      <td align="center" width="50%" valign="top">
+        <h3>🌐 Frontend & UI/UX</h3>
+        <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=next.js&logoColor=ffffff" />
+        <img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+        <img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+        <img src="https://img.shields.io/badge/Angular-0A0A0A?style=for-the-badge&logo=angular&logoColor=DD0031" />
+        <img src="https://img.shields.io/badge/Redux-0A0A0A?style=for-the-badge&logo=redux&logoColor=764ABC" />
+        <img src="https://img.shields.io/badge/HTML5-0A0A0A?style=for-the-badge&logo=html5&logoColor=E34F26" />
+        <img src="https://img.shields.io/badge/CSS3-0A0A0A?style=for-the-badge&logo=css3&logoColor=1572B6" />
+        <img src="https://img.shields.io/badge/Bootstrap-0A0A0A?style=for-the-badge&logo=bootstrap&logoColor=8511FA" />
+        <img src="https://img.shields.io/badge/Figma-0A0A0A?style=for-the-badge&logo=figma&logoColor=F24E1E" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%" valign="top">
+        <h3>⚙️ Backend & Core</h3>
+        <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=node.js&logoColor=6DA55F" />
+        <img src="https://img.shields.io/badge/Express.js-0A0A0A?style=for-the-badge&logo=express&logoColor=ffffff" />
+        <img src="https://img.shields.io/badge/C++-0A0A0A?style=for-the-badge&logo=c%2B%2B&logoColor=00599C" />
+        <img src="https://img.shields.io/badge/Java-0A0A0A?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
+        <img src="https://img.shields.io/badge/C%23-0A0A0A?style=for-the-badge&logo=csharp&logoColor=239120" />
+        <img src="https://img.shields.io/badge/Go-0A0A0A?style=for-the-badge&logo=go&logoColor=00ADD8" />
+        <img src="https://img.shields.io/badge/Rust-0A0A0A?style=for-the-badge&logo=rust&logoColor=ffffff" />
+        <img src="https://img.shields.io/badge/PHP-0A0A0A?style=for-the-badge&logo=php&logoColor=777BB4" />
+        <img src="https://img.shields.io/badge/Scala-0A0A0A?style=for-the-badge&logo=scala&logoColor=DC322F" />
+        <img src="https://img.shields.io/badge/Kotlin-0A0A0A?style=for-the-badge&logo=kotlin&logoColor=7F52FF" />
+        <img src="https://img.shields.io/badge/Socket.io-0A0A0A?style=for-the-badge&logo=socket.io&logoColor=ffffff" />
+      </td>
+      <td align="center" width="50%" valign="top">
+        <h3>☁️ Cloud & Infrastructure</h3>
+        <img src="https://img.shields.io/badge/AWS-0A0A0A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" />
+        <img src="https://img.shields.io/badge/GCP-0A0A0A?style=for-the-badge&logo=googlecloud&logoColor=4285F4" />
+        <img src="https://img.shields.io/badge/Azure-0A0A0A?style=for-the-badge&logo=microsoftazure&logoColor=0089D6" />
+        <img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=2496ED" />
+        <img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+        <img src="https://img.shields.io/badge/MySQL-0A0A0A?style=for-the-badge&logo=mysql&logoColor=4479A1" />
+        <img src="https://img.shields.io/badge/SQL_Server-0A0A0A?style=for-the-badge&logo=microsoftsqlserver&logoColor=CC2927" />
+        <img src="https://img.shields.io/badge/Cassandra-0A0A0A?style=for-the-badge&logo=apachecassandra&logoColor=1287B1" />
+        <img src="https://img.shields.io/badge/Firebase-0A0A0A?style=for-the-badge&logo=firebase&logoColor=FFCA28" />
+        <img src="https://img.shields.io/badge/Oracle-0A0A0A?style=for-the-badge&logo=oracle&logoColor=F80000" />
+        <img src="https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=F05033" />
+        <img src="https://img.shields.io/badge/Bash-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=ffffff" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
 <p align="center"><img src="assets/divider-deco.svg" width="100%" alt="Divider" /></p>
+
+## 📜 Premium Certifications & Credentials
+
+<div align="center"><i>An extensive portfolio of verified technical and strategic credentials from industry-leading institutions.</i></div>
+
+<br>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">🧠 AI & Data Science</h3>
+        <ul>
+          <li><b>Advanced Machine Learning & Data Analytics</b> · <i>Google</i></li>
+          <li><b>Designing Autonomous AI</b> · <i>University of Washington</i></li>
+          <li><b>Machine Learning to Deep Learning</b> · <i>ISRO</i></li>
+          <li><b>Python for Data Science</b> · <i>IBM</i></li>
+          <li><b>AI Applications on Azure</b> · <i>LearnQuest & Microsoft</i></li>
+          <li><b>Prompt Engineering</b> · <i>Vanderbilt University</i></li>
+        </ul>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">💻 Full Stack & Mobile</h3>
+        <ul>
+          <li><b>Full Stack Software Developer</b> · <i>IBM</i></li>
+          <li><b>Back End & Front End Developer</b> · <i>Meta</i></li>
+          <li><b>iOS, Android & React Native</b> · <i>Meta</i></li>
+          <li><b>AR Developer</b> · <i>Meta</i></li>
+          <li><b>Advanced SQL Certifications</b> · <i>HackerRank</i></li>
+          <li><b>Java Core & Excellence</b> · <i>Coding Ninjas</i></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">☁️ Cloud & DevOps</h3>
+        <ul>
+          <li><b>DevOps and Software Engineering</b> · <i>IBM</i></li>
+          <li><b>Google Cloud Digital Leader</b> · <i>Google Cloud</i></li>
+          <li><b>Industrial IoT on Google Cloud</b> · <i>Google</i></li>
+          <li><b>System Administration</b> · <i>Microsoft</i></li>
+          <li><b>Network Routing & Packet Tracer</b> · <i>Cisco</i></li>
+          <li><b>Ethical Hacking Essentials</b> · <i>CodeRed</i></li>
+        </ul>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">📊 Leadership & Strategy</h3>
+        <ul>
+          <li><b>Game Theory I & II</b> · <i>Stanford University</i></li>
+          <li><b>Project Management & UX Design</b> · <i>Google</i></li>
+          <li><b>Leadership Skills</b> · <i>IIM Ahmedabad</i></li>
+          <li><b>Agile Leadership</b> · <i>University of Colorado</i></li>
+          <li><b>Financial Markets</b> · <i>Yale University</i></li>
+          <li><b>Business Analysis</b> · <i>Microsoft</i></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="Divider" /></p>
 
 ## 📈 System Analytics & Contributions
 
