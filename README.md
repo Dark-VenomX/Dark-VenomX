@@ -188,28 +188,14 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
 <br><br>
 
-## 🚀 Production Deployments & Open Source
+## ♟️ Core Engineering Directives
 
-*Showcasing architectural design, enterprise-grade AI integration, and scalable full-stack builds.*
+*The non-negotiable principles I apply to every enterprise system I architect.*
 
-<div align="center">
-  <a href="https://github.com/Dark-VenomX">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=spell-test-engine&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
-  </a>
-  <a href="https://github.com/Dark-VenomX">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=complaint-tracker-module&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/Dark-VenomX">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=lead-generation-system&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
-  </a>
-  <a href="https://github.com/Dark-VenomX">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Dark-VenomX&repo=AI-employee-data-module&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A" width="48%" />
-  </a>
-</div>
-
-*(Note: Update the `repo=` parameters in the URLs above to match your actual public repository names!)*
+- **1. Zero-Downtime Tolerance:** Systems shouldn't just survive peak loads; they must scale effortlessly and autonomously to meet them. 
+- **2. Intelligence by Design:** Machine learning is not an afterthought. AI models must be seamlessly woven into the core infrastructure of the application for maximum impact.
+- **3. Uncompromising Security:** Security protocols are embedded at the genesis of the development cycle, ensuring that enterprise-level and sensitive data is locked down at every endpoint.
+- **4. Relentless Execution:** Writing code that is as elegant for machines to compile as it is for other engineers to read. Form meets function.
 
 <br><br>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
@@ -249,12 +235,16 @@ I am an elite **AI Engineer and Full-Stack Architect** with a relentless pursuit
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
 <br><br>
 
-## ⏱️ Live IDE Telemetry
-
-*Real-time tracking of my weekly development cycles and language distribution.*
-
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=Dark-VenomX&hide_border=true&title_color=F5D061&text_color=A6B4C8&icon_color=F5D061&bg_color=0A0A0A&layout=compact" />
+  <h2 style="color: #F5D061;">Let's Architect Something Extraordinary.</h2>
+  <p>Open for high-level collaborations, architectural consulting, and open-source contributions.</p>
+  <br>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email_Me-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061&border=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/kaustuv-mishra-787684214/">
+    <img src="https://img.shields.io/badge/LinkedIn_Connect-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=F5D061&border=white" alt="LinkedIn" />
+  </a>
 </div>
 
 <br><br>
