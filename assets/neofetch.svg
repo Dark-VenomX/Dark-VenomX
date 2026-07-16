@@ -1,0 +1,90 @@
+<svg viewBox="0 0 820 390" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" role="img" aria-label="System profile — neofetch style card for Kaustuv Mishra">
+  <defs>
+    <radialGradient id="nbg" cx="50%" cy="20%" r="110%"><stop offset="0%" stop-color="#141109"/><stop offset="55%" stop-color="#0B0A09"/><stop offset="100%" stop-color="#060606"/></radialGradient>
+    <linearGradient id="ngold" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF6D8"/><stop offset="50%" stop-color="#F5D061"/><stop offset="100%" stop-color="#C9A227"/></linearGradient>
+    <filter id="ng" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="nsoft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+
+  <!-- Window -->
+  <rect x="6" y="6" width="808" height="372" rx="16" fill="url(#nbg)"/>
+  <rect x="6" y="6" width="808" height="372" rx="16" fill="none" stroke="#F5D061" stroke-opacity="0.10" stroke-width="7" filter="url(#nsoft)"/>
+  <rect x="6" y="6" width="808" height="372" rx="16" fill="none" stroke="#F5D061" stroke-opacity="0.28" stroke-width="1.2"/>
+
+  <!-- Traveling border light -->
+  <path d="M22 6 H798 A16 16 0 0 1 814 22 V362 A16 16 0 0 1 798 378 H22 A16 16 0 0 1 6 362 V22 A16 16 0 0 1 22 6 Z"
+        fill="none" stroke="#FFF6D8" stroke-width="2" stroke-linecap="round" pathLength="1000" stroke-dasharray="50 950" filter="url(#ng)">
+    <animate attributeName="stroke-dashoffset" values="0;-1000" dur="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Title bar -->
+  <line x1="6" y1="42" x2="814" y2="42" stroke="#F5D061" stroke-opacity="0.18"/>
+  <g>
+    <circle cx="30" cy="24" r="5.5" fill="#F5D061"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="50" cy="24" r="5.5" fill="#C9A227"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="24" r="5.5" fill="#7a5514"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="410" y="28" text-anchor="middle" fill="#A6B4C8" font-size="12" letter-spacing="2" opacity="0.85">kaustuv@architect: ~/portfolio</text>
+
+  <!-- Command line -->
+  <text x="34" y="72" font-size="14"><tspan fill="#F5D061" font-weight="700">❯ </tspan><tspan fill="#A6B4C8">neofetch</tspan></text>
+  <rect x="150" y="61" width="8" height="14" fill="#F5D061"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>
+
+  <!-- Left: rotating monogram emblem -->
+  <g transform="translate(150 235)">
+    <polygon points="62,0 31,53.7 -31,53.7 -62,0 -31,-53.7 31,-53.7" fill="none" stroke="url(#ngold)" stroke-width="1.6" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="44,0 22,38 -22,38 -44,0 -22,-38 22,-38" fill="none" stroke="#F5D061" stroke-width="1" stroke-opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+    </polygon>
+    <rect x="-30" y="-30" width="60" height="60" fill="none" stroke="#C9A227" stroke-width="0.8" stroke-opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="34s" repeatCount="indefinite"/>
+    </rect>
+    <text x="0" y="15" text-anchor="middle" fill="url(#ngold)" font-size="42" font-weight="700" filter="url(#ng)">KM</text>
+    <!-- orbiting spark -->
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/><circle cx="70" cy="0" r="2.4" fill="#FFF6D8" filter="url(#ng)"/></g>
+  </g>
+  <text x="150" y="330" text-anchor="middle" fill="#A6B4C8" font-size="10" letter-spacing="3">AI · ARCHITECT</text>
+
+  <!-- Right: neofetch readout (reveals line by line) -->
+  <g font-size="13">
+    <text x="320" y="96" fill="#F5D061" font-weight="700" opacity="0">kaustuv<tspan fill="#6f7c90">@</tspan>architect<animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.3s" fill="freeze"/></text>
+    <line x1="320" y1="104" x2="700" y2="104" stroke="#F5D061" stroke-opacity="0.35" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.3s" fill="freeze"/></line>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="126" fill="#F5D061" font-weight="700">OS</text><text x="440" y="126" fill="#A6B4C8">Enterprise Architecture</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.30s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="148" fill="#F5D061" font-weight="700">Host</text><text x="440" y="148" fill="#A6B4C8">AI Systems · Full-Stack</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="170" fill="#F5D061" font-weight="700">Kernel</text><text x="440" y="170" fill="#A6B4C8">Python · TypeScript · Go · Rust</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.60s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="192" fill="#F5D061" font-weight="700">Uptime</text><text x="440" y="192" fill="#A6B4C8">Shipping since 2022</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="214" fill="#F5D061" font-weight="700">Stack</text><text x="440" y="214" fill="#A6B4C8">TensorFlow · PyTorch · React · Node</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.90s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="236" fill="#F5D061" font-weight="700">Cloud</text><text x="440" y="236" fill="#A6B4C8">AWS · GCP · Azure</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.05s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="258" fill="#F5D061" font-weight="700">Data</text><text x="440" y="258" fill="#A6B4C8">MongoDB · SQL · Cassandra</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.20s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="280" fill="#F5D061" font-weight="700">Focus</text><text x="440" y="280" fill="#A6B4C8">LLMs · Scalable Systems · MLOps</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.35s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="302" fill="#F5D061" font-weight="700">Discipline</text><text x="440" y="302" fill="#A6B4C8">10+ yrs Martial Arts / MMA</text></g>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.50s" dur="0.3s" fill="freeze"/>
+      <text x="320" y="324" fill="#F5D061" font-weight="700">Status</text>
+      <circle cx="446" cy="320" r="4" fill="#5FD08A"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="458" y="324" fill="#A6B4C8">Open to collaborations</text></g>
+
+    <!-- color swatches -->
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.70s" dur="0.4s" fill="freeze"/>
+      <rect x="320" y="344" width="22" height="12" rx="2" fill="#FFF6D8"/>
+      <rect x="346" y="344" width="22" height="12" rx="2" fill="#F5D061"/>
+      <rect x="372" y="344" width="22" height="12" rx="2" fill="#E7C24D"/>
+      <rect x="398" y="344" width="22" height="12" rx="2" fill="#D8A93C"/>
+      <rect x="424" y="344" width="22" height="12" rx="2" fill="#C9A227"/>
+      <rect x="450" y="344" width="22" height="12" rx="2" fill="#A6801E"/>
+      <rect x="476" y="344" width="22" height="12" rx="2" fill="#7a5514"/>
+      <rect x="502" y="344" width="22" height="12" rx="2" fill="#A6B4C8"/>
+    </g>
+  </g>
+</svg>
