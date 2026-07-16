@@ -8,7 +8,7 @@
 
 <!-- ░░░ HERO ░░░ -->
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Kaustuv Mishra — AI Architect | Enterprise Engineer" />
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/hero.svg?v=2" width="100%" alt="Kaustuv Mishra — AI Architect | Enterprise Engineer" />
 </p>
 
 <div align="center">
@@ -36,16 +36,16 @@
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-aurum.svg?v=2" width="100%" alt="" /></p>
 
 ## 💻 System Profile
 
 <p align="center">
-  <img src="assets/neofetch.svg" width="100%" alt="Kaustuv Mishra — system profile" />
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/neofetch.svg?v=2" width="100%" alt="Kaustuv Mishra — system profile" />
 </p>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-pulse.svg?v=2" width="100%" alt="" /></p>
 
 ## 🌐 Executive Summary
 
@@ -61,12 +61,12 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br clear="all" />
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-deco.svg?v=2" width="100%" alt="" /></p>
 
 ## 🚀 Featured Deployment
 
 <p align="center">
-  <img src="assets/featured-venomx.svg" width="100%" alt="VenomX — Elite Autonomous AI Architectures" />
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/featured-venomx.svg?v=2" width="100%" alt="VenomX — Elite Autonomous AI Architectures" />
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </p>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-aurum.svg?v=2" width="100%" alt="" /></p>
 
 ## ⚙️ The Technology Arsenal
 
@@ -148,7 +148,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-pulse.svg?v=2" width="100%" alt="" /></p>
 
 ## 📜 Premium Certifications &amp; Credentials
 
@@ -210,7 +210,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-deco.svg?v=2" width="100%" alt="" /></p>
 
 ## ♟️ Core Engineering Directives
 
@@ -224,7 +224,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 - **4 · Relentless Execution** — Code that is as elegant for machines to compile as it is for engineers to read. Form always meets function.
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-aurum.svg?v=2" width="100%" alt="" /></p>
 
 ## 📈 System Analytics &amp; Contributions
 
@@ -246,7 +246,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="assets/contribution-matrix.svg" width="100%" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/contribution-matrix.svg?v=2" width="100%" alt="Contribution snake" />
 </p>
 
 <br>
@@ -264,13 +264,13 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/divider-pulse.svg?v=2" width="100%" alt="" /></p>
 
 ## 🤝 Let's Architect Something Extraordinary
 
 <div align="center">
 
-<img src="assets/station.svg" width="320" alt="Developer Station" />
+<img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/station.svg?v=2" width="320" alt="Developer Station" />
 
 <br>
 
@@ -291,7 +291,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <!-- ░░░ FOOTER SIGNATURE ░░░ -->
-<p align="center"><img src="assets/footer.svg" width="80%" alt="Architecting the Future, One Commit at a Time." /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/footer.svg?v=2" width="80%" alt="Architecting the Future, One Commit at a Time." /></p>
 
 <div align="center">
 
