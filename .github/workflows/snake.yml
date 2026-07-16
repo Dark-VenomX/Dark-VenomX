@@ -16,12 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate snake SVGs (glowing gold palette)
+      - name: Generate snake over the contribution calendar
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # color_dots = [empty-day, level1, level2, level3, level4]
+          # empty-day is a FAINT visible square so the whole calendar grid shows,
+          # brighter gold = more contributions; color_snake = the snake body.
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FFF6D8&color_dots=%230b0a09,%233b2f0b,%237a6417,%23d8a93c,%23F5D061
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FFF6D8&color_dots=%232a2412,%235c4a12,%238a6b1a,%23d8a93c,%23F5D061
             dist/github-contribution-grid-snake.svg?color_snake=%23C9A227&color_dots=%23ebedf0,%23f5e7bf,%23f0d98a,%23e7c24d,%23F5D061
 
       - name: Push to the output branch
