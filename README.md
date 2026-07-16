@@ -248,9 +248,6 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <p align="center">
   <img src="assets/contribution-matrix.svg" width="100%" alt="Contribution matrix" />
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake" />
-</p>
 
 <br>
 
