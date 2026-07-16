@@ -246,7 +246,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/main/assets/contribution-matrix.svg?v=2" width="100%" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/output/contribution-matrix.svg?v=3" width="100%" alt="Contribution snake" />
 </p>
 
 <br>
