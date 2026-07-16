@@ -22,6 +22,9 @@
 <a href="https://www.youtube.com/@kaustuvmishra823">
   <img src="https://img.shields.io/badge/YouTube-0A0A0A?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="YouTube" />
 </a>
+<a href="https://www.venomx.shop">
+  <img src="https://img.shields.io/badge/VenomX-venomx.shop-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=F5D061" alt="VenomX" />
+</a>
 <a href="mailto:kaustuvmishra1@gmail.com">
   <img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061" alt="Email" />
 </a>
@@ -34,6 +37,15 @@
 
 <!-- ░░░ DIVIDER ░░░ -->
 <p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
+
+## 💻 System Profile
+
+<p align="center">
+  <img src="assets/neofetch.svg" width="100%" alt="Kaustuv Mishra — system profile" />
+</p>
+
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
 
 ## 🌐 Executive Summary
 
@@ -49,7 +61,22 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 <br clear="all" />
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+
+## 🚀 Featured Deployment
+
+<p align="center">
+  <img src="assets/featured-venomx.svg" width="100%" alt="VenomX — Elite Autonomous AI Architectures" />
+</p>
+
+<p align="center">
+  <a href="https://www.venomx.shop">
+    <img src="https://img.shields.io/badge/Live_Platform-venomx.shop-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=F5D061" alt="Live Platform" />
+  </a>
+</p>
+
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
 
 ## ⚙️ The Technology Arsenal
 
@@ -70,7 +97,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
         <img src="https://img.shields.io/badge/Pandas-0A0A0A?style=for-the-badge&logo=pandas&logoColor=ffffff" />
         <img src="https://img.shields.io/badge/NumPy-0A0A0A?style=for-the-badge&logo=numpy&logoColor=4DABCF" />
         <img src="https://img.shields.io/badge/SciPy-0A0A0A?style=for-the-badge&logo=scipy&logoColor=0C55A5" />
-        <img src="https://img.shields.io/badge/Matplotlib-0A0A0A?style=for-the-badge&logo=Matplotlib&logoColor=ffffff" />
+        <img src="https://img.shields.io/badge/Hugging_Face-0A0A0A?style=for-the-badge&logo=huggingface&logoColor=FFD21E" />
       </td>
       <td align="center" width="50%" valign="top">
         <h3>🌐 Frontend &amp; UI/UX</h3>
@@ -121,7 +148,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
 
 ## 📜 Premium Certifications &amp; Credentials
 
@@ -183,7 +210,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 </div>
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
 
 ## ♟️ Core Engineering Directives
 
@@ -197,7 +224,7 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 - **4 · Relentless Execution** — Code that is as elegant for machines to compile as it is for engineers to read. Form always meets function.
 
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-aurum.svg" width="100%" alt="" /></p>
 
 ## 📈 System Analytics &amp; Contributions
 
@@ -216,6 +243,17 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br>
 
+### 🐍 Contribution Matrix
+
+<p align="center">
+  <img src="assets/contribution-matrix.svg" width="100%" alt="Contribution matrix" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake" />
+</p>
+
+<br>
+
 ### 🏆 GitHub Hall of Fame
 <div align="center">
   <img src="https://github-profile-trophy-tawny.vercel.app/?username=Dark-VenomX&theme=matrix&no-frame=true&no-bg=true&margin-w=4&title_color=F5D061&text_color=A6B4C8" alt="Trophies" />
@@ -228,15 +266,8 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dark-VenomX&bg_color=0A0A0A&color=F5D061&line=F5D061&point=ffffff&area=true&hide_border=true&hide_title=true" width="100%" alt="Activity Graph" />
 </div>
 
-<br>
-
-### 🐍 Contribution Snake
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Dark-VenomX/Dark-VenomX/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
-</div>
-
 <!-- ░░░ DIVIDER ░░░ -->
-<p align="center"><img src="assets/divider-deco.svg" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider-pulse.svg" width="100%" alt="" /></p>
 
 ## 🤝 Let's Architect Something Extraordinary
 
@@ -250,6 +281,9 @@ I am an **AI Engineer and Full Stack Architect** who loves solving complex probl
 
 <br><br>
 
+<a href="https://www.venomx.shop">
+  <img src="https://img.shields.io/badge/Explore_VenomX-venomx.shop-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=F5D061" alt="VenomX" />
+</a>
 <a href="mailto:kaustuvmishra1@gmail.com">
   <img src="https://img.shields.io/badge/kaustuvmishra1@gmail.com-0A0A0A?style=for-the-badge&logo=gmail&logoColor=F5D061" alt="Email" />
 </a>
