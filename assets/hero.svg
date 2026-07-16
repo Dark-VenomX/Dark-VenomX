@@ -1,110 +1,109 @@
 <svg viewBox="0 0 920 260" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace" role="img" aria-label="Kaustuv Mishra — AI Architect and Enterprise Engineer">
   <defs>
-    <!-- Panel background: deep obsidian with a faint warm core -->
-    <radialGradient id="panelBg" cx="50%" cy="35%" r="90%">
-      <stop offset="0%" stop-color="#15130C"/>
+    <radialGradient id="panelBg" cx="50%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#17140C"/>
       <stop offset="45%" stop-color="#0C0B0A"/>
-      <stop offset="100%" stop-color="#070707"/>
+      <stop offset="100%" stop-color="#060606"/>
     </radialGradient>
-
-    <!-- Metallic gold, vertical depth -->
     <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#FCE7A6"/>
-      <stop offset="42%" stop-color="#F5D061"/>
-      <stop offset="72%" stop-color="#D8A93C"/>
-      <stop offset="100%" stop-color="#B7842A"/>
+      <stop offset="0%"  stop-color="#FFF6D8"/>
+      <stop offset="38%" stop-color="#F5D061"/>
+      <stop offset="70%" stop-color="#D8A93C"/>
+      <stop offset="100%" stop-color="#B07C22"/>
     </linearGradient>
-
-    <!-- Moving shine band -->
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="45%"  stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.95"/>
-      <stop offset="55%"  stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="54%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- Soft gold glow -->
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="3.2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5D061" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F5D061" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#F5D061" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="6"/>
+    <filter id="cometG" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <!-- Name mask for the shine sweep -->
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7"/></filter>
+    <clipPath id="panelClip"><path d="M26 6 H894 A20 20 0 0 1 914 26 V234 A20 20 0 0 1 894 254 H26 A20 20 0 0 1 6 234 V26 A20 20 0 0 1 26 6 Z"/></clipPath>
     <mask id="nameMask">
       <rect width="920" height="260" fill="black"/>
-      <text x="460" y="140" text-anchor="middle" fill="white"
-            font-size="66" font-weight="700" letter-spacing="4">KAUSTUV&#160;MISHRA</text>
+      <text x="460" y="139" text-anchor="middle" fill="white" font-size="60" font-weight="700" letter-spacing="4">KAUSTUV&#160;MISHRA</text>
     </mask>
+    <g id="glint"><path d="M0 -7 L1.6 -1.6 L7 0 L1.6 1.6 L0 7 L-1.6 1.6 L-7 0 L-1.6 -1.6 Z" fill="#FFF6D8"/></g>
   </defs>
 
   <!-- Panel -->
-  <rect x="6" y="6" width="908" height="248" rx="20" fill="url(#panelBg)" stroke="#F5D061" stroke-opacity="0.28" stroke-width="1.2"/>
-  <rect x="6" y="6" width="908" height="248" rx="20" fill="none" stroke="#F5D061" stroke-opacity="0.10" stroke-width="6" filter="url(#softGlow)"/>
+  <rect x="6" y="6" width="908" height="248" rx="20" fill="url(#panelBg)"/>
+  <rect x="6" y="6" width="908" height="248" rx="20" fill="none" stroke="#F5D061" stroke-opacity="0.10" stroke-width="7" filter="url(#soft)"/>
 
-  <!-- Faint engineering grid -->
-  <g stroke="#F5D061" stroke-opacity="0.05">
-    <path d="M6 70 H914 M6 130 H914 M6 190 H914 M180 6 V254 M360 6 V254 M560 6 V254 M740 6 V254"/>
-  </g>
-
-  <!-- Art-deco corner brackets (pulse) -->
-  <g stroke="url(#gold)" stroke-width="2" fill="none" stroke-linecap="round">
-    <path d="M28 34 h34 M28 34 v34"/>
-    <path d="M892 34 h-34 M892 34 v34"/>
-    <path d="M28 226 h34 M28 226 v-34"/>
-    <path d="M892 226 h-34 M892 226 v-34"/>
-    <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="3.4s" repeatCount="indefinite"/>
-  </g>
-
-  <!-- Floating gold particles -->
-  <g fill="#F5D061">
-    <circle cx="150" cy="210" r="1.8">
-      <animate attributeName="cy" values="215;40" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.9;0" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="300" cy="220" r="1.4">
-      <animate attributeName="cy" values="220;55" dur="9s" begin="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="1.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="620" cy="205" r="1.6">
-      <animate attributeName="cy" values="215;45" dur="8s" begin="0.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.8;0" dur="8s" begin="0.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="770" cy="225" r="1.3">
-      <animate attributeName="cy" values="225;60" dur="10s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.6;0" dur="10s" begin="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="470" cy="215" r="1.5">
-      <animate attributeName="cy" values="220;50" dur="8.5s" begin="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0" dur="8.5s" begin="3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Prompt tag -->
-  <text x="460" y="60" text-anchor="middle" fill="#A6B4C8" font-size="13" letter-spacing="6" opacity="0.85">&gt; INITIALIZING&#160;PROFILE</text>
-
-  <!-- Name (base metallic) -->
-  <text x="460" y="140" text-anchor="middle" fill="url(#gold)" filter="url(#glow)"
-        font-size="66" font-weight="700" letter-spacing="4">KAUSTUV&#160;MISHRA</text>
-  <!-- Shine sweep clipped to the name -->
-  <g mask="url(#nameMask)">
-    <rect x="-380" y="80" width="380" height="90" fill="url(#shine)">
-      <animate attributeName="x" values="-380;980" dur="4.5s" begin="1s" repeatCount="indefinite"/>
+  <!-- Clipped ambience: grid + scanline -->
+  <g clip-path="url(#panelClip)">
+    <g stroke="#F5D061" stroke-opacity="0.045">
+      <path d="M6 70H914 M6 130H914 M6 190H914 M180 6V254 M360 6V254 M560 6V254 M740 6V254"/>
+    </g>
+    <rect x="6" y="0" width="908" height="46" fill="url(#scan)">
+      <animate attributeName="y" values="-40;250;-40" dur="7s" repeatCount="indefinite"/>
     </rect>
+    <!-- Parallax particle layers -->
+    <g fill="#F5D061">
+      <circle cx="130" cy="200" r="1.1" opacity="0.5"><animate attributeName="cy" values="205;30" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="11s" repeatCount="indefinite"/></circle>
+      <circle cx="410" cy="210" r="1" opacity="0.4"><animate attributeName="cy" values="210;35" dur="13s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0" dur="13s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="690" cy="205" r="1.2" opacity="0.5"><animate attributeName="cy" values="208;28" dur="12s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="12s" begin="4s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#FCE7A6">
+      <circle cx="220" cy="215" r="1.8"><animate attributeName="cy" values="220;45" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="220" r="1.6"><animate attributeName="cy" values="222;50" dur="8s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.85;0" dur="8s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="215" r="1.7"><animate attributeName="cy" values="220;40" dur="7.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="7.5s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="225" r="1.5"><animate attributeName="cy" values="225;60" dur="9s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="4.5s" repeatCount="indefinite"/></circle>
+    </g>
   </g>
 
-  <!-- Subtitle -->
-  <text x="460" y="176" text-anchor="middle" fill="#A6B4C8" font-size="16" letter-spacing="5" font-weight="600">AI ARCHITECT&#160;&#160;·&#160;&#160;ENTERPRISE ENGINEER</text>
+  <!-- Traveling light around the border -->
+  <path d="M26 6 H894 A20 20 0 0 1 914 26 V234 A20 20 0 0 1 894 254 H26 A20 20 0 0 1 6 234 V26 A20 20 0 0 1 26 6 Z"
+        fill="none" stroke="#F5D061" stroke-opacity="0.28" stroke-width="1.2"/>
+  <path d="M26 6 H894 A20 20 0 0 1 914 26 V234 A20 20 0 0 1 894 254 H26 A20 20 0 0 1 6 234 V26 A20 20 0 0 1 26 6 Z"
+        fill="none" stroke="#FFF6D8" stroke-width="2.2" stroke-linecap="round" pathLength="1000" stroke-dasharray="55 945" filter="url(#cometG)">
+    <animate attributeName="stroke-dashoffset" values="0;-1000" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M26 6 H894 A20 20 0 0 1 914 26 V234 A20 20 0 0 1 894 254 H26 A20 20 0 0 1 6 234 V26 A20 20 0 0 1 26 6 Z"
+        fill="none" stroke="#F5D061" stroke-width="1.6" stroke-linecap="round" pathLength="1000" stroke-dasharray="35 965" opacity="0.7" filter="url(#cometG)">
+    <animate attributeName="stroke-dashoffset" values="-500;-1500" dur="6s" repeatCount="indefinite"/>
+  </path>
 
-  <!-- Gold rule with traveling comet -->
-  <g>
-    <line x1="300" y1="200" x2="620" y2="200" stroke="url(#gold)" stroke-width="1.4" stroke-opacity="0.55"/>
-    <circle cx="0" cy="200" r="3.4" fill="#FFF3C9" filter="url(#glow)">
-      <animate attributeName="cx" values="300;620;300" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Deco corners + twinkle glints -->
+  <g stroke="url(#gold)" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M30 40 h30 M30 40 v30"/><path d="M890 40 h-30 M890 40 v30"/>
+    <path d="M30 220 h30 M30 220 v-30"/><path d="M890 220 h-30 M890 220 v-30"/>
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite"/>
   </g>
+  <g transform="translate(30 40)"><path d="M0 -7 L1.6 -1.6 L7 0 L1.6 1.6 L0 7 L-1.6 1.6 L-7 0 L-1.6 -1.6 Z" fill="#FFF6D8"><animateTransform attributeName="transform" type="scale" values="0;1;0" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></path></g>
+  <g transform="translate(890 220)"><path d="M0 -7 L1.6 -1.6 L7 0 L1.6 1.6 L0 7 L-1.6 1.6 L-7 0 L-1.6 -1.6 Z" fill="#FFF6D8"><animateTransform attributeName="transform" type="scale" values="0;1;0" dur="3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="3s" begin="1.5s" repeatCount="indefinite"/></path></g>
+
+  <!-- HUD status pill -->
+  <g transform="translate(460 44)">
+    <rect x="-92" y="-13" width="184" height="24" rx="12" fill="none" stroke="#F5D061" stroke-opacity="0.4"/>
+    <circle cx="-74" cy="-1" r="3.4" fill="#F5D061"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/><animate attributeName="r" values="3;4.2;3" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="6" y="3" text-anchor="middle" fill="#A6B4C8" font-size="11" letter-spacing="4">SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Name -->
+  <text x="460" y="139" text-anchor="middle" fill="url(#gold)" filter="url(#glow)" font-size="60" font-weight="700" letter-spacing="4">KAUSTUV&#160;MISHRA</text>
+  <g mask="url(#nameMask)">
+    <rect x="-400" y="85" width="400" height="80" fill="url(#shine)"><animate attributeName="x" values="-400;1000" dur="4.5s" begin="0.8s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- Subtitle + blinking cursor -->
+  <text x="452" y="174" text-anchor="middle" fill="#A6B4C8" font-size="15" letter-spacing="5" font-weight="600">AI ARCHITECT&#160;&#160;·&#160;&#160;ENTERPRISE ENGINEER</text>
+  <rect x="650" y="164" width="9" height="13" fill="#F5D061"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1.1s" repeatCount="indefinite"/></rect>
+
+  <!-- Rule + comet + end glints -->
+  <line x1="300" y1="200" x2="620" y2="200" stroke="url(#gold)" stroke-width="1.4" stroke-opacity="0.55"/>
+  <circle cx="300" cy="200" r="2" fill="#F5D061"/><circle cx="620" cy="200" r="2" fill="#F5D061"/>
+  <circle cx="0" cy="200" r="3.6" fill="#FFF6D8" filter="url(#cometG)"><animate attributeName="cx" values="300;620;300" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></circle>
 </svg>

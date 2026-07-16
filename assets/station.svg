@@ -1,102 +1,70 @@
 <svg viewBox="0 0 340 260" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','JetBrains Mono',ui-monospace,monospace" role="img" aria-label="Developer workstation">
   <defs>
-    <linearGradient id="sGold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FCE7A6"/>
-      <stop offset="55%" stop-color="#F5D061"/>
-      <stop offset="100%" stop-color="#C9A227"/>
-    </linearGradient>
-    <linearGradient id="sDesk" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F5D061" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#F5D061" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#F5D061" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="sGlow" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#F5D061" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#F5D061" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="sBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="1.6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF6D8"/><stop offset="55%" stop-color="#F5D061"/><stop offset="100%" stop-color="#C9A227"/></linearGradient>
+    <linearGradient id="sd" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F5D061" stop-opacity="0"/><stop offset="50%" stop-color="#F5D061" stop-opacity="0.75"/><stop offset="100%" stop-color="#F5D061" stop-opacity="0"/></linearGradient>
+    <radialGradient id="sgl" cx="50%" cy="42%" r="58%"><stop offset="0%" stop-color="#F5D061" stop-opacity="0.24"/><stop offset="100%" stop-color="#F5D061" stop-opacity="0"/></radialGradient>
+    <radialGradient id="spill" cx="50%" cy="0%" r="80%"><stop offset="0%" stop-color="#F5D061" stop-opacity="0.28"/><stop offset="100%" stop-color="#F5D061" stop-opacity="0"/></radialGradient>
+    <filter id="sb" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
 
-  <!-- Ambient glow (breathing) -->
-  <ellipse cx="170" cy="105" rx="150" ry="95" fill="url(#sGlow)">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
-  </ellipse>
+  <ellipse cx="170" cy="100" rx="155" ry="98" fill="url(#sgl)"><animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/></ellipse>
 
-  <!-- Deco corner ticks (echo the hero) -->
-  <g stroke="url(#sGold)" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.75">
-    <path d="M14 26 v-12 h12"/>
-    <path d="M326 26 v-12 h-12"/>
-    <path d="M14 234 v12 h12"/>
-    <path d="M326 234 v12 h-12"/>
+  <g stroke="url(#sg)" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.75">
+    <path d="M14 26 v-12 h12"/><path d="M326 26 v-12 h-12"/><path d="M14 234 v12 h12"/><path d="M326 234 v12 h-12"/>
     <animate attributeName="opacity" values="0.35;0.9;0.35" dur="3.6s" repeatCount="indefinite"/>
   </g>
 
-  <!-- Floating particles -->
   <g fill="#F5D061">
     <circle cx="60" cy="180" r="1.5"><animate attributeName="cy" values="185;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite"/></circle>
     <circle cx="290" cy="190" r="1.3"><animate attributeName="cy" values="190;55" dur="9s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="1.5s" repeatCount="indefinite"/></circle>
     <circle cx="120" cy="200" r="1.2"><animate attributeName="cy" values="200;70" dur="8s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="8s" begin="3s" repeatCount="indefinite"/></circle>
   </g>
 
+  <!-- light spill from screen onto desk -->
+  <ellipse cx="170" cy="172" rx="120" ry="26" fill="url(#spill)"/>
+
   <!-- Monitor -->
+  <rect x="92" y="42" width="156" height="98" rx="7" fill="#0C0B0A" stroke="url(#sg)" stroke-width="1.6"/>
+  <rect x="92" y="42" width="156" height="98" rx="7" fill="none" stroke="#F5D061" stroke-opacity="0.15" stroke-width="4" filter="url(#sb)"/>
+
   <g>
-    <rect x="92" y="42" width="156" height="98" rx="7" fill="#0C0B0A" stroke="url(#sGold)" stroke-width="1.6"/>
-    <rect x="92" y="42" width="156" height="98" rx="7" fill="none" stroke="#F5D061" stroke-opacity="0.15" stroke-width="4" filter="url(#sBlur)"/>
+    <rect x="106" y="56" height="4" rx="2" fill="#F5D061" opacity="0.9"><animate attributeName="width" values="0;66;66;0" keyTimes="0;0.25;0.85;1" dur="8s" repeatCount="indefinite"/></rect>
+    <rect x="118" y="67" height="4" rx="2" fill="#A6B4C8" opacity="0.8"><animate attributeName="width" values="0;94;94;0" keyTimes="0;0.35;0.85;1" dur="8s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="118" y="78" height="4" rx="2" fill="#A6B4C8" opacity="0.7"><animate attributeName="width" values="0;72;72;0" keyTimes="0;0.45;0.85;1" dur="8s" begin="0.8s" repeatCount="indefinite"/></rect>
+    <rect x="106" y="89" height="4" rx="2" fill="#F5D061" opacity="0.85"><animate attributeName="width" values="0;108;108;0" keyTimes="0;0.55;0.85;1" dur="8s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <g fill="#C9A227" font-size="7" font-weight="700"><text x="98" y="60">&gt;</text><text x="98" y="93">&gt;</text></g>
+    <!-- deploy progress bar -->
+    <text x="106" y="112" fill="#A6B4C8" font-size="6" letter-spacing="1">DEPLOY</text>
+    <rect x="140" y="107" width="94" height="5" rx="2.5" fill="none" stroke="#F5D061" stroke-opacity="0.4"/>
+    <rect x="141" y="108" height="3" rx="1.5" fill="url(#sg)"><animate attributeName="width" values="0;92;92;0" keyTimes="0;0.7;0.9;1" dur="8s" repeatCount="indefinite"/></rect>
+    <rect x="176" y="120" width="7" height="7" fill="#FFF6D8"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
 
-    <!-- Code lines (typing loop) -->
-    <g>
-      <rect x="106" y="58" height="4" rx="2" fill="#F5D061" opacity="0.9">
-        <animate attributeName="width" values="0;66;66;0" keyTimes="0;0.25;0.85;1" dur="8s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="118" y="70" height="4" rx="2" fill="#A6B4C8" opacity="0.8">
-        <animate attributeName="width" values="0;94;94;0" keyTimes="0;0.35;0.85;1" dur="8s" begin="0.4s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="118" y="82" height="4" rx="2" fill="#A6B4C8" opacity="0.7">
-        <animate attributeName="width" values="0;72;72;0" keyTimes="0;0.45;0.85;1" dur="8s" begin="0.8s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="106" y="94" height="4" rx="2" fill="#F5D061" opacity="0.85">
-        <animate attributeName="width" values="0;108;108;0" keyTimes="0;0.55;0.85;1" dur="8s" begin="1.2s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="118" y="106" height="4" rx="2" fill="#A6B4C8" opacity="0.6">
-        <animate attributeName="width" values="0;54;54;0" keyTimes="0;0.65;0.85;1" dur="8s" begin="1.6s" repeatCount="indefinite"/>
-      </rect>
-      <!-- prompt carets -->
-      <g fill="#C9A227" font-size="7" font-weight="700">
-        <text x="98" y="62">&gt;</text><text x="98" y="98">&gt;</text>
-      </g>
-      <!-- blinking cursor -->
-      <rect x="176" y="118" width="7" height="7" fill="#FFF3C9">
-        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
+  <rect x="163" y="140" width="14" height="16" fill="url(#sg)"/>
+  <path d="M146 168 L194 168 L186 158 L154 158 Z" fill="url(#sg)"/>
+
+  <line x1="34" y1="170" x2="306" y2="170" stroke="url(#sd)" stroke-width="2"/>
+
+  <!-- keyboard with key glints -->
+  <g transform="translate(120 176)">
+    <rect x="0" y="0" width="100" height="14" rx="3" fill="none" stroke="url(#sg)" stroke-width="1.2" opacity="0.8"/>
+    <g fill="#F5D061">
+      <rect x="8" y="4" width="7" height="3" rx="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="20" y="4" width="7" height="3" rx="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.3s" repeatCount="indefinite"/></rect>
+      <rect x="32" y="4" width="7" height="3" rx="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.6s" repeatCount="indefinite"/></rect>
+      <rect x="44" y="4" width="24" height="3" rx="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.9s" repeatCount="indefinite"/></rect>
+      <rect x="72" y="4" width="7" height="3" rx="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="1.1s" repeatCount="indefinite"/></rect>
     </g>
-
-    <!-- Neck + base -->
-    <rect x="163" y="140" width="14" height="16" fill="url(#sGold)"/>
-    <path d="M146 168 L194 168 L186 158 L154 158 Z" fill="url(#sGold)"/>
   </g>
 
-  <!-- Desk -->
-  <line x1="34" y1="170" x2="306" y2="170" stroke="url(#sDesk)" stroke-width="2"/>
-
-  <!-- Coffee mug + steam -->
+  <!-- Coffee + steam -->
   <g transform="translate(255 143)">
-    <rect x="0" y="6" width="24" height="21" rx="3" fill="none" stroke="url(#sGold)" stroke-width="1.6"/>
-    <path d="M24 11 q9 1 9 7 t-9 7" fill="none" stroke="url(#sGold)" stroke-width="1.6"/>
+    <rect x="0" y="6" width="24" height="21" rx="3" fill="none" stroke="url(#sg)" stroke-width="1.6"/>
+    <path d="M24 11 q9 1 9 7 t-9 7" fill="none" stroke="url(#sg)" stroke-width="1.6"/>
     <line x1="3" y1="12" x2="21" y2="12" stroke="#C9A227" stroke-width="1.2" opacity="0.7"/>
-    <!-- steam -->
-    <path d="M7 4 q-3 -4 0 -8 q3 -4 0 -8" fill="none" stroke="#A6B4C8" stroke-width="1.3" stroke-linecap="round">
-      <animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 4;0 -4;0 4" dur="3s" repeatCount="indefinite"/>
-    </path>
-    <path d="M15 4 q-3 -4 0 -8 q3 -4 0 -8" fill="none" stroke="#A6B4C8" stroke-width="1.3" stroke-linecap="round">
-      <animate attributeName="opacity" values="0;0.6;0" dur="3s" begin="1s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 4;0 -4;0 4" dur="3s" begin="1s" repeatCount="indefinite"/>
-    </path>
+    <path d="M7 4 q-3 -4 0 -8 q3 -4 0 -8" fill="none" stroke="#A6B4C8" stroke-width="1.3" stroke-linecap="round"><animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 4;0 -4;0 4" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M15 4 q-3 -4 0 -8 q3 -4 0 -8" fill="none" stroke="#A6B4C8" stroke-width="1.3" stroke-linecap="round"><animate attributeName="opacity" values="0;0.6;0" dur="3s" begin="1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 4;0 -4;0 4" dur="3s" begin="1s" repeatCount="indefinite"/></path>
   </g>
 
-  <!-- Caption -->
-  <text x="170" y="196" text-anchor="middle" fill="#A6B4C8" font-size="9" letter-spacing="3">TURNING&#160;COFFEE&#160;INTO&#160;CODE</text>
+  <text x="170" y="210" text-anchor="middle" fill="#A6B4C8" font-size="9" letter-spacing="3">TURNING&#160;COFFEE&#160;INTO&#160;CODE</text>
 </svg>

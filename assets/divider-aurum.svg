@@ -1,60 +1,36 @@
 <svg viewBox="0 0 900 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="divider">
   <defs>
-    <linearGradient id="lineFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#F5D061" stop-opacity="0"/>
-      <stop offset="18%"  stop-color="#F5D061" stop-opacity="0.55"/>
-      <stop offset="50%"  stop-color="#F5D061" stop-opacity="0.9"/>
-      <stop offset="82%"  stop-color="#F5D061" stop-opacity="0.55"/>
+    <linearGradient id="lf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5D061" stop-opacity="0"/><stop offset="18%" stop-color="#F5D061" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#F5D061" stop-opacity="0.95"/><stop offset="82%" stop-color="#F5D061" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#F5D061" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="goldV" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FCE7A6"/>
-      <stop offset="55%" stop-color="#F5D061"/>
-      <stop offset="100%" stop-color="#C9A227"/>
-    </linearGradient>
-    <filter id="gl" x="-200%" y="-200%" width="500%" height="500%">
-      <feGaussianBlur stdDeviation="2.4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFF6D8"/><stop offset="55%" stop-color="#F5D061"/><stop offset="100%" stop-color="#C9A227"/></linearGradient>
+    <filter id="g" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
 
-  <!-- Base hairline -->
-  <line x1="30" y1="20" x2="870" y2="20" stroke="url(#lineFade)" stroke-width="1.4"/>
+  <line x1="30" y1="20" x2="870" y2="20" stroke="url(#lf)" stroke-width="1.4"/>
 
-  <!-- Traveling comet -->
-  <g filter="url(#gl)">
-    <line x1="0" y1="20" x2="46" y2="20" stroke="#FFF3C9" stroke-width="1.6" stroke-linecap="round" opacity="0.85">
-      <animate attributeName="x1" values="70;760" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="116;806" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/>
+  <!-- twin comets, opposite phase -->
+  <g filter="url(#g)">
+    <line x1="0" x2="46" y1="20" y2="20" stroke="#FFF6D8" stroke-width="1.7" stroke-linecap="round">
+      <animate attributeName="x1" values="60;760" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="106;806" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.95;0" dur="5s" repeatCount="indefinite"/>
     </line>
-    <circle cx="0" cy="20" r="2.6" fill="#FFFFFF">
-      <animate attributeName="cx" values="116;806" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="0" cy="20" r="2.6" fill="#fff"><animate attributeName="cx" values="106;806" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="20" r="2" fill="#F5D061" opacity="0.7"><animate attributeName="cx" values="806;106" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- Flanking ticks -->
-  <g stroke="#F5D061" stroke-width="1.2" stroke-opacity="0.7">
-    <line x1="405" y1="14" x2="405" y2="26"/>
-    <line x1="418" y1="16" x2="418" y2="24"/>
-    <line x1="495" y1="14" x2="495" y2="26"/>
-    <line x1="482" y1="16" x2="482" y2="24"/>
+  <!-- flanking sparkle glints -->
+  <g fill="#FFF6D8">
+    <path transform="translate(392 20)" d="M0 -5 L1.1 -1.1 L5 0 L1.1 1.1 L0 5 L-1.1 1.1 L-5 0 L-1.1 -1.1 Z"><animateTransform attributeName="transform" additive="sum" type="scale" values="0;1;0" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.6s" repeatCount="indefinite"/></path>
+    <path transform="translate(508 20)" d="M0 -5 L1.1 -1.1 L5 0 L1.1 1.1 L0 5 L-1.1 1.1 L-5 0 L-1.1 -1.1 Z"><animateTransform attributeName="transform" additive="sum" type="scale" values="0;1;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></path>
   </g>
 
-  <!-- Center gem: two diamonds, slow rotate + pulse -->
-  <g transform="translate(450 20)">
-    <g filter="url(#gl)">
-      <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="url(#goldV)" stroke-width="1.6" transform="rotate(45)">
-        <animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="12s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="-3.2" y="-3.2" width="6.4" height="6.4" fill="url(#goldV)" transform="rotate(45)">
-        <animateTransform attributeName="transform" type="rotate" from="45" to="-315" dur="9s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <circle cx="0" cy="0" r="11" fill="none" stroke="#F5D061" stroke-width="0.8">
-      <animate attributeName="r" values="9;15;9" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- center gem -->
+  <g transform="translate(450 20)" filter="url(#g)">
+    <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="url(#gv)" stroke-width="1.6"><animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="12s" repeatCount="indefinite"/></rect>
+    <rect x="-3.4" y="-3.4" width="6.8" height="6.8" fill="url(#gv)"><animateTransform attributeName="transform" type="rotate" from="45" to="-315" dur="9s" repeatCount="indefinite"/></rect>
+    <circle cx="0" cy="0" r="11" fill="none" stroke="#F5D061" stroke-width="0.8"><animate attributeName="r" values="9;16;9" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.2s" repeatCount="indefinite"/></circle>
   </g>
 </svg>
