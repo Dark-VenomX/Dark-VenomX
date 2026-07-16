@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Generate an animated "growing snake" SVG from a GitHub user's LIVE contribution
-calendar. The snake starts short and gains one body segment every time it eats a
-contribution cell, matching the VenomX gold/obsidian palette.
+calendar. The snake hunts the lit contribution cells (not every square), eating
+them in an efficient nearest-first order and gaining one body segment per bite.
+Matches the VenomX gold/obsidian palette.
 
 Data source: GitHub GraphQL API (contributionsCollection.contributionCalendar).
 Auth: reads a token from GH_TOKEN (or GITHUB_TOKEN). The default Actions
@@ -16,10 +17,10 @@ import json
 import os
 import sys
 import urllib.request
+from collections import deque
 
 # ----------------------------------------------------------------------------
 # Palette (matches the README: gold #F5D061 / obsidian #0A0A0A / steel #A6B4C8)
-# Contribution levels 0..4, low -> high.
 # ----------------------------------------------------------------------------
 DOTS = ["#2a2412", "#5c4a12", "#8a6b1a", "#d8a93c", "#F5D061"]
 SNAKE_BODY = "#FFF6D8"   # cream trail
@@ -29,18 +30,20 @@ EMPTY = DOTS[0]
 # ----------------------------------------------------------------------------
 # Geometry
 # ----------------------------------------------------------------------------
-CELL = 11        # square size (px)
-GAP = 3          # gap between squares
+CELL = 11
+GAP = 3
 PITCH = CELL + GAP
 MARGIN = 14
 
 # ----------------------------------------------------------------------------
 # Animation
 # ----------------------------------------------------------------------------
-BASE_LEN = 4     # snake length before it has eaten anything
-MAX_LEN = 18     # cap so it stays a snake, not a boa that swallows the board
-STEP = 0.11      # seconds the head spends crossing one cell
-END_HOLD = 2.6   # seconds to hold the finished frame before the loop restarts
+BASE_LEN = 4          # snake length before it has eaten anything
+MAX_LEN = 18          # cap so it stays a snake, not a boa that swallows the board
+TARGET_MOVE = 13.0    # seconds the full traversal should take (drives speed)
+MIN_STEP = 0.030      # fastest a cell crossing may be (keeps dense boards visible)
+MAX_STEP = 0.085      # slowest a cell crossing may be (keeps sparse boards snappy)
+END_HOLD = 1.8        # seconds to hold the finished frame before the loop restarts
 
 LEVEL_MAP = {
     "NONE": 0,
@@ -70,7 +73,6 @@ query($login: String!) {
 
 
 def fetch_calendar(login, token):
-    """Return weeks -> list of {weekday, level} using the live GraphQL API."""
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": GRAPHQL, "variables": {"login": login}}).encode(),
@@ -101,7 +103,6 @@ def fetch_calendar(login, token):
 
 
 def build_grid(weeks):
-    """grid[(w, weekday)] = level, for the days that actually exist."""
     grid = {}
     for w, days in enumerate(weeks):
         for d in days:
@@ -109,9 +110,42 @@ def build_grid(weeks):
     return grid, len(weeks)
 
 
-def serpentine_path(grid, num_weeks):
-    """Continuous head path: down column 0, up column 1, down column 2, ...
-    Only visits cells that exist in the calendar."""
+# ----------------------------------------------------------------------------
+# Pathfinding: hunt the lit cells instead of sweeping the whole board
+# ----------------------------------------------------------------------------
+def _neighbors(cell, cells):
+    w, d = cell
+    for dw, dd in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+        n = (w + dw, d + dd)
+        if n in cells:
+            yield n
+
+
+def _bfs(start, goal, cells):
+    """Shortest grid walk start -> goal over existing cells (4-neighbourhood)."""
+    if start == goal:
+        return [start]
+    prev = {start: None}
+    q = deque([start])
+    while q:
+        c = q.popleft()
+        if c == goal:
+            break
+        for n in _neighbors(c, cells):
+            if n not in prev:
+                prev[n] = c
+                q.append(n)
+    if goal not in prev:
+        return None
+    out, c = [], goal
+    while c is not None:
+        out.append(c)
+        c = prev[c]
+    out.reverse()
+    return out
+
+
+def _serpentine(grid, num_weeks):
     path = []
     for w in range(num_weeks):
         rows = range(7) if w % 2 == 0 else range(6, -1, -1)
@@ -119,6 +153,32 @@ def serpentine_path(grid, num_weeks):
             if (w, d) in grid:
                 path.append((w, d))
     return path
+
+
+def target_path(grid, num_weeks):
+    """Nearest-first tour over the lit cells, stitched together with the
+    shortest grid walk between each pair. The head only detours through empty
+    cells when it has to in order to reach the next contribution."""
+    cells = set(grid.keys())
+    lit = [c for c, v in grid.items() if v > 0]
+    if not lit:
+        return _serpentine(grid, num_weeks)
+
+    remaining = set(lit)
+    current = min(lit, key=lambda c: (c[0], c[1]))  # top-left-most lit cell
+    remaining.discard(current)
+    full = [current]
+
+    while remaining:
+        nxt = min(remaining, key=lambda c: abs(c[0] - current[0]) + abs(c[1] - current[1]))
+        remaining.discard(nxt)
+        seg = _bfs(current, nxt, cells)
+        if seg is None:            # disconnected (shouldn't happen); jump directly
+            seg = [current, nxt]
+        full.extend(seg[1:])       # skip the shared cell
+        current = nxt
+
+    return full
 
 
 def cell_xy(w, d):
@@ -130,57 +190,58 @@ def pct(t, total):
 
 
 def generate_svg(grid, num_weeks):
-    path = serpentine_path(grid, num_weeks)
+    path = target_path(grid, num_weeks)
     steps = len(path)
     positions = [cell_xy(w, d) for (w, d) in path]
 
-    # snake length after arriving at each step (grows when it eats a lit cell)
-    lengths, eaten = [], 0
-    for w, d in path:
-        if grid[(w, d)] > 0:
-            eaten += 1
-        lengths.append(min(MAX_LEN, BASE_LEN + eaten))
+    # adaptive per-cell speed so the whole run lands near TARGET_MOVE seconds
+    step_dur = min(MAX_STEP, max(MIN_STEP, TARGET_MOVE / max(steps, 1)))
 
-    move_end = (steps - 1) * STEP
+    # growth + when each lit cell is first eaten (first time the head lands on it)
+    eaten = set()
+    lengths = []
+    first_lit_step = {}
+    for s, c in enumerate(path):
+        if grid[c] > 0 and c not in eaten:
+            eaten.add(c)
+            first_lit_step[c] = s
+        lengths.append(min(MAX_LEN, BASE_LEN + len(eaten)))
+
+    move_end = (steps - 1) * step_dur
     total = move_end + END_HOLD
 
     svg_w = MARGIN * 2 + num_weeks * PITCH - GAP
     svg_h = MARGIN * 2 + 7 * PITCH - GAP
 
-    out = []
-    out.append(
+    out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{svg_w}" height="{svg_h}" '
         f'viewBox="0 0 {svg_w} {svg_h}" fill="none">'
-    )
-
+    ]
     style = ['<style>']
     style.append(
         f'.cell{{width:{CELL}px;height:{CELL}px;rx:2.5px;}}'
         f'.snake{{width:{CELL}px;height:{CELL}px;rx:3px;}}'
         f'.head{{rx:{CELL/2}px;}}'
     )
+    body = []
 
-    # --- static empty layer (always visible; eaten cells fade back to this) ---
-    body = ['<g>']
+    # static empty layer (eaten cells fade back to this)
+    body.append('<g>')
     for (w, d) in grid:
         x, y = cell_xy(w, d)
         body.append(f'<rect class="cell" x="{x}" y="{y}" fill="{EMPTY}"/>')
     body.append('</g>')
 
-    # --- lit cells that get eaten (fade out at the step the head arrives) ---
+    # lit cells that get eaten, fading out as the head reaches them
     body.append('<g>')
-    step_of = {cell: s for s, cell in enumerate(path)}
     for (w, d), lvl in grid.items():
-        if lvl <= 0:
+        if lvl <= 0 or (w, d) not in first_lit_step:
             continue
         x, y = cell_xy(w, d)
-        s = step_of[(w, d)]
-        eat = pct(s * STEP, total)
+        eat = pct(first_lit_step[(w, d)] * step_dur, total)
         name = f"eat_{w}_{d}"
-        # opacity holds at 1, drops to 0 as the head passes, then stays gone
         style.append(
-            f'@keyframes {name}{{'
-            f'0%,{max(eat-0.01,0)}%{{opacity:1}}'
+            f'@keyframes {name}{{0%,{max(eat-0.01,0)}%{{opacity:1}}'
             f'{eat}%,100%{{opacity:0}}}}'
         )
         body.append(
@@ -189,10 +250,9 @@ def generate_svg(grid, num_weeks):
         )
     body.append('</g>')
 
-    # --- the growing snake: one rect per segment, head first ---
+    # the growing snake, head first
     body.append('<g>')
     for i in range(MAX_LEN):
-        # first step at which segment i should be on screen
         appear = i
         while appear < steps and lengths[appear] <= i:
             appear += 1
@@ -203,15 +263,13 @@ def generate_svg(grid, num_weeks):
         if appear > 0:
             px0, py0 = positions[0]
             frames.append(f'0%{{transform:translate({px0}px,{py0}px);opacity:0}}')
-            just_before = max(pct(appear * STEP, total) - 0.01, 0.01)
+            just_before = max(pct(appear * step_dur, total) - 0.01, 0.01)
             frames.append(f'{just_before}%{{opacity:0}}')
 
         for s in range(appear, steps):
             px, py = positions[s - i]
-            p = pct(s * STEP, total)
-            frames.append(f'{p}%{{transform:translate({px}px,{py}px);opacity:1}}')
+            frames.append(f'{pct(s*step_dur, total)}%{{transform:translate({px}px,{py}px);opacity:1}}')
 
-        # hold the final frame through END_HOLD, then loop restarts
         pxl, pyl = positions[(steps - 1) - i]
         frames.append(f'100%{{transform:translate({pxl}px,{pyl}px);opacity:1}}')
 
