@@ -2,6 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
+    # every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -16,18 +17,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate snake over the contribution calendar
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          # color_dots = [empty-day, level1, level2, level3, level4]
-          # empty-day is a FAINT visible square so the whole calendar grid shows,
-          # brighter gold = more contributions; color_snake = the snake body.
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FFF6D8&color_dots=%232a2412,%235c4a12,%238a6b1a,%23d8a93c,%23F5D061
-            dist/github-contribution-grid-snake.svg?color_snake=%23C9A227&color_dots=%23ebedf0,%23f5e7bf,%23f0d98a,%23e7c24d,%23F5D061
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Push to the output branch
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate the growing-snake SVG from live contribution data
+        env:
+          # GITHUB_TOKEN can read a public contribution calendar. If yours comes
+          # back empty, create a classic PAT with `read:user` scope, add it as a
+          # repo secret (e.g. SNAKE_TOKEN) and swap it in here.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python scripts/generate_snake.py dist/contribution-matrix.svg
+
+      - name: Push the SVG to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
